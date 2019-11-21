@@ -10,7 +10,7 @@ const elemento = document.getElementById("root");
  */
 ReactDOM.render(
         <div>
-            <PrimeiroComponente></PrimeiroComponente> 
+            <PrimeiroComponente valor="Bom dia" aBcD={Math.pow(2,8)}></PrimeiroComponente> 
         </div>
     ,elemento);
 
