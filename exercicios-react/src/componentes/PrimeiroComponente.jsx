@@ -19,5 +19,4 @@ Quando exportamos diretamente a função, podemos ter uma função anônima.
 export default function(){
     return <h1>Primeiro Componente</h1>;
 }
-
  */
