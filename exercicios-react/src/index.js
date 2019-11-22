@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; //Responsável por lançar nossos componentes para a página.
-// import PrimeiroComponente from './componentes/PrimeiroComponente.jsx';
-import {CompA, CompB as B} from './componentes/DoisComponentes.jsx';
+// import PrimeiroComponente from './componentes/PrimeiroComponente';
+// import {CompA, CompB as B} from './componentes/DoisComponentes';
+import MultiElementos from './componentes/MultiElementos';
+// import Elemento from './componentes/MeuComponenteTeste';   
+import Elemento, {ComponentA, ComponentB} from './componentes/MeuComponenteTeste';
 
 const elemento = document.getElementById("root");
 
@@ -16,8 +19,16 @@ const elemento = document.getElementById("root");
 
 ReactDOM.render(
         <div>
-            <CompA valor="Sou o componente A!!"/>
+            {/* <CompA valor="Sou o componente A!!"/>
             <B valor="Sou o componente B!!"/>
+            <PrimeiroComponente valor="Bom dia"/> */}
+
+            <MultiElementos />
+            {/* <Elemento /> */}
+            <ComponentA />
+            <ComponentB />
+            <Elemento />
+
         </div>
     ,elemento);
 
