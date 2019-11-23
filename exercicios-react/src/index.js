@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom'; //Responsável por lançar nossos componentes 
 // import {CompA, CompB as B} from './componentes/DoisComponentes';
 import MultiElementos from './componentes/MultiElementos';
 // import Elemento from './componentes/MeuComponenteTeste';   
-import Elemento, {ComponentA, ComponentB} from './componentes/MeuComponenteTeste';
+import Elemento, {ComponentA as A, ComponentB} from './componentes/MeuComponenteTeste';
+import FamiliaIntegrantes from './componentes/FamiliaSilva';
 
 const elemento = document.getElementById("root");
 
@@ -25,9 +26,10 @@ ReactDOM.render(
 
             <MultiElementos />
             {/* <Elemento /> */}
-            <ComponentA />
+            <A />
             <ComponentB />
             <Elemento />
+            <FamiliaIntegrantes/>
 
         </div>
     ,elemento);
