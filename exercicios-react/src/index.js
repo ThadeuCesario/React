@@ -8,6 +8,7 @@ import FamiliaIntegrantes from './componentes/FamiliaSilva';
 import FamiliaMembros from './componentes/Familia';
 import Membro from './componentes/Membro';
 import FamiliaPereiraIntegrantes from './componentes/FamiliaPereira';
+import FamiliaMembrosProps from './componentes/FamiliaProps';
 
 const elemento = document.getElementById("root");
 
@@ -43,6 +44,10 @@ ReactDOM.render(
         <Membro nome="Katharina" sobrenome="Brenha" />
 
         <FamiliaPereiraIntegrantes sobrenome="Pereira"/>
+
+        <FamiliaMembrosProps sobrenome="Props">
+            <Membro nome="React" />
+        </FamiliaMembrosProps>
 
     </div>
     , elemento);
