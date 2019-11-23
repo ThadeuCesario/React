@@ -47,6 +47,8 @@ ReactDOM.render(
 
         <FamiliaMembrosProps sobrenome="Props">
             <Membro nome="React" />
+            <Membro nome="Angular" />
+            <Membro nome="VueJS" />
         </FamiliaMembrosProps>
 
     </div>
