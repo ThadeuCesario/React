@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; //Responsável por lançar nossos componentes para a página.
-// import PrimeiroComponente from './componentes/PrimeiroComponente';
-// import {CompA, CompB as B} from './componentes/DoisComponentes';
-import MultiElementos from './componentes/MultiElementos';
-// import Elemento from './componentes/MeuComponenteTeste';   
+import PrimeiroComponente from './componentes/PrimeiroComponente';
+import {CompA, CompB as B} from './componentes/DoisComponentes';
+import MultiElementos from './componentes/MultiElementos'; 
 import Elemento, { ComponentA as A, ComponentB } from './componentes/MeuComponenteTeste';
 import FamiliaIntegrantes from './componentes/FamiliaSilva';
 import FamiliaMembros from './componentes/Familia';
-import Membros from './componentes/Membro';
+import Membro from './componentes/Membro';
+import FamiliaPereiraIntegrantes from './componentes/FamiliaPereira';
 
 const elemento = document.getElementById("root");
 
@@ -22,26 +22,27 @@ const elemento = document.getElementById("root");
 
 ReactDOM.render(
     <div>
-        {/* <CompA valor="Sou o componente A!!"/>
+        <CompA valor="Sou o componente A!!"/>
             <B valor="Sou o componente B!!"/>
-            <PrimeiroComponente valor="Bom dia"/> */}
+            <PrimeiroComponente valor="Bom dia"/> 
 
         <MultiElementos />
-        {/* <Elemento /> */}
         <A />
         <ComponentB />
         <Elemento />
         <FamiliaIntegrantes />
 
         <FamiliaMembros>
-            <Membros nome="Thadeu" sobrenome="Cesário" />
-            <Membros nome="Karina" sobrenome="Brenha" />
-            <Membros nome="Katharina" sobrenome="Brenha" />
+            <Membro nome="Thadeu" sobrenome="Cesário" />
+            <Membro nome="Karina" sobrenome="Brenha" />
+            <Membro nome="Katharina" sobrenome="Brenha" />
         </FamiliaMembros>
 
-        <Membros nome="Thadeu" sobrenome="Cesário" />
-        <Membros nome="Karina" sobrenome="Brenha" />
-        <Membros nome="Katharina" sobrenome="Brenha" />
+        <Membro nome="Thadeu" sobrenome="Cesário" />
+        <Membro nome="Karina" sobrenome="Brenha" />
+        <Membro nome="Katharina" sobrenome="Brenha" />
+
+        <FamiliaPereiraIntegrantes sobrenome="Pereira"/>
 
     </div>
     , elemento);
