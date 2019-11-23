@@ -4,8 +4,10 @@ import ReactDOM from 'react-dom'; //Responsável por lançar nossos componentes 
 // import {CompA, CompB as B} from './componentes/DoisComponentes';
 import MultiElementos from './componentes/MultiElementos';
 // import Elemento from './componentes/MeuComponenteTeste';   
-import Elemento, {ComponentA as A, ComponentB} from './componentes/MeuComponenteTeste';
+import Elemento, { ComponentA as A, ComponentB } from './componentes/MeuComponenteTeste';
 import FamiliaIntegrantes from './componentes/FamiliaSilva';
+import FamiliaMembros from './componentes/Familia';
+import Membros from './componentes/Membro';
 
 const elemento = document.getElementById("root");
 
@@ -19,20 +21,30 @@ const elemento = document.getElementById("root");
  */
 
 ReactDOM.render(
-        <div>
-            {/* <CompA valor="Sou o componente A!!"/>
+    <div>
+        {/* <CompA valor="Sou o componente A!!"/>
             <B valor="Sou o componente B!!"/>
             <PrimeiroComponente valor="Bom dia"/> */}
 
-            <MultiElementos />
-            {/* <Elemento /> */}
-            <A />
-            <ComponentB />
-            <Elemento />
-            <FamiliaIntegrantes/>
+        <MultiElementos />
+        {/* <Elemento /> */}
+        <A />
+        <ComponentB />
+        <Elemento />
+        <FamiliaIntegrantes />
 
-        </div>
-    ,elemento);
+        <FamiliaMembros>
+            <Membros nome="Thadeu" sobrenome="Cesário" />
+            <Membros nome="Karina" sobrenome="Brenha" />
+            <Membros nome="Katharina" sobrenome="Brenha" />
+        </FamiliaMembros>
+
+        <Membros nome="Thadeu" sobrenome="Cesário" />
+        <Membros nome="Karina" sobrenome="Brenha" />
+        <Membros nome="Katharina" sobrenome="Brenha" />
+
+    </div>
+    , elemento);
 
 
 // const jsx = <h1>Hello React!</h1>;
