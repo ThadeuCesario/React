@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {filhosComProps} from '../utils/utils'
 /**
  * props.children serve para renderizar todos os elementos que foram passados como filho 
  * para dentro de uma tag. Então essa é uma forma de acessar os elementos filhos dentro
@@ -20,10 +20,25 @@ import React from 'react';
   * {React.cloneElement(props.children, props)}
   * Todas as propriedades dessa forma serão passada dos componentes pai para os componentes filhos.
   */
+
+ /**
+  * Utilizei um map para conseguir percorrer o conjunto de filhos de um determinado elemento pai.
+  * e então espalhar as devidas propriedades. 
+  * Se eu não tivesse utilizado o map, funcionaria apenas com um elemento.
+  * Cuidado com a sintaxe: 
+  * 
+  *     React.Children.map(props.children, child => {
+            return React.cloneElement(child, {...props})
+        })
+  */
 export default props =>
     <div>
         {/* {props.children} */}
         {/* {React.cloneElement(props.children, {sobrenome: props.sobrenome})} */}
         {/* {React.cloneElement(props.children, props)} */}
-        {React.cloneElement(props.children, ...props)}
+        {/* {React.cloneElement(props.children, ...props)} */}
+        {/* {React.Children.map(props.children, child => {
+            return React.cloneElement(child, {...props})
+        })} */}
+        {filhosComProps(props)}
     </div>
