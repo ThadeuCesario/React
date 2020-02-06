@@ -7,9 +7,10 @@ import ReactDOM from 'react-dom';
 // import FamiliaTeste from './componentes/FamiliaTeste';
 // import Familia from './componentes/Familia';
 // import Membros from './componentes/Membro';
-// import ComponenteComFuncao from './componentes/componenteComFuncao';
+// import ComponenteComFuncao from './componentes/ComponenteComFuncao';
 // import ListaDeCompras from './componentes/listaDeCompras';
 // import Pai from './componentes/Pai'
+import ComponenteClasse from './componentes/ComponenteClasse'
 
 const elemento = document.getElementById('root');
 
@@ -30,5 +31,6 @@ ReactDOM.render(
         {/* <ComponenteComFuncao /> */}
         {/* <ListaDeCompras /> */}
         {/* <Pai /> */}
+        <ComponenteClasse valor="Componente de classe"/>
     </div>
     , elemento);
