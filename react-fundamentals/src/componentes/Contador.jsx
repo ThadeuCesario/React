@@ -19,17 +19,32 @@ export default class Contador extends React.Component{
          * de javascript o 'this' não está associado ao local que essa função está, mas sim em
          * quem está chamando essa função.
          */
-        this.props.numero++;
+        // this.state.numero++;
+
+        this.setState({numero: this.state.numero + 1});
+    }
+
+    menosUm = () => {
+        this.setState({numero: this.state.numero - 1});
+    }
+
+    alterarNumero = diferenca =>{
+        this.setState({
+            numero: this.state.numero + diferenca
+        })
     }
 
      render(){
          return(
          <div>
              <div>
-                 Número : {this.props.numero}
+                 Número : {this.state.numero}
              </div>
              <button onClick={this.maisUm}>Incrementar</button>
-             <button>Decrementar</button>
+             <button onClick={this.menosUm}>Decrementar</button>
+
+             <button onClick={() => this.alterarNumero(10)}>Incrementar+10</button>
+             <button onClick={() => this.alterarNumero(-10)}>Decrementar-10</button>
          </div>
          )
      }
