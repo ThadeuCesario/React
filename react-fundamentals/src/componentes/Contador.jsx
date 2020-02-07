@@ -9,6 +9,9 @@ export default class Contador extends React.Component{
      * caso de um componente baseado em classe chamará a função render().
      */
 
+     state = {
+         numero: 0
+     }
    
     
     maisUm = () =>{
