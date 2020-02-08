@@ -43,8 +43,8 @@ export default class Contador extends React.Component{
              <button onClick={this.maisUm}>Incrementar</button>
              <button onClick={this.menosUm}>Decrementar</button>
 
-             <button onClick={() => this.alterarNumero(10)}>Incrementar+10</button>
-             <button onClick={() => this.alterarNumero(-10)}>Decrementar-10</button>
+             <button onClick={() => this.alterarNumero(20)}>Incrementar+20</button>
+             <button onClick={() => this.alterarNumero(-20)}>Decrementar-20</button>
          </div>
          )
      }
