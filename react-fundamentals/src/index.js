@@ -11,7 +11,8 @@ import ReactDOM from 'react-dom';
 // import ListaDeCompras from './componentes/listaDeCompras';
 // import Pai from './componentes/Pai'
 // import ComponenteClasse from './componentes/ComponenteClasse';
-import Contador from './componentes/Contador';
+// import Contador from './componentes/Contador';
+   import Hook from './componentes/Hook';
 
 const elemento = document.getElementById('root');
 
@@ -33,6 +34,7 @@ ReactDOM.render(
         {/* <ListaDeCompras /> */}
         {/* <Pai /> */}
         {/* <ComponenteClasse valor="Componente de classe"/> */}
-        <Contador numero={0}/>
+        {/* <Contador numero={0}/> */}
+        <Hook />
     </div>
     , elemento);
