@@ -3,9 +3,9 @@ import Membro from './Membro';
 
 export default props => 
     <div>
-        <Membro nome="Linguagem" sobrenome="javascript"/>
-        <Membro nome="Linguagem" sobrenome="python" />
-        <Membro nome="Linguagem" sobrenome="php" />
-        <Membro nome="Linguagem" sobrenome="java" />
-        <Membro nome="Linguagem" sobrenome="C#" />
+        <Membro nome={props.nome} sobrenome="javascript"/>
+        <Membro nome={props.nome} sobrenome="python" />
+        <Membro nome={props.nome} sobrenome="php" />
+        <Membro nome={props.nome} sobrenome="java" />
+        <Membro nome={props.nome} sobrenome="C#" />
     </div>

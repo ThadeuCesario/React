@@ -24,11 +24,11 @@ ReactDOM.render(
         <ComponenteA infoA="Informação do primeiro componente"/>
         <NomeQualquer infoB="Informação do segundo componente"/>
         <MultiElementos />
-        <FamiliaDev />
-        <Familia>
-            <Membro nome="NomeTeste_1" sobrenome="SobrenomeTeste_1" />
-            <Membro nome="NomeTeste_2" sobrenome="SobrenomeTeste_2" />
-            <Membro nome="NomeTeste_3" sobrenome="SobrenomeTeste_3" />
+        <FamiliaDev nome="Linguagem"/>
+        <Familia sobrenome="Teste">
+            <Membro nome="NomeTeste_1" />
+            <Membro nome="NomeTeste_2" />
+            <Membro nome="NomeTeste_3" />
         </Familia>
     </React.Fragment>
     , elemento);
