@@ -8,6 +8,7 @@ import ComponenteParametro from './Componentes/ComponenteComParametro';
 import ComponenteParametroNumerico from './Componentes/ComponenteParametroNumerico';
 import {ComponenteA, ComponenteB as NomeQualquer} from './Componentes/MultiploComponente';
 import MultiElementos from './Componentes/MultiElementos';
+import FamiliaDev from './Componentes/FamiliaDev';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
         <ComponenteA infoA="Informação do primeiro componente"/>
         <NomeQualquer infoB="Informação do segundo componente"/>
         <MultiElementos />
+        <FamiliaDev />
     </React.Fragment>
     , elemento);
 
