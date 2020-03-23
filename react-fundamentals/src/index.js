@@ -13,6 +13,8 @@ import Familia from './Componentes/Familia';
 import Membro from './Componentes/Membro';
 import ComponenteCalculadora from './Componentes/ComponenteCalculadora';
 import ComponenteNumerico from './Componentes/ComponenteNumerico';
+import ComponenteFucional from './Componentes/ComponenteComFuncao';
+import ComponenteFuncionalDois from './Componentes/ComponenteComFuncaoDois';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -38,6 +40,8 @@ ReactDOM.render(
             <ComponenteNumerico valorIndividual={10}/>
             <ComponenteNumerico valorIndividual={0}/>
         </ComponenteCalculadora>
+        <ComponenteFucional />
+        <ComponenteFuncionalDois />
     </React.Fragment>
     , elemento);
 
