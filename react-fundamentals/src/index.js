@@ -11,6 +11,8 @@ import MultiElementos from './Componentes/MultiElementos';
 import FamiliaDev from './Componentes/FamiliaDev';
 import Familia from './Componentes/Familia';
 import Membro from './Componentes/Membro';
+import ComponenteCalculadora from './Componentes/ComponenteCalculadora';
+import ComponenteNumerico from './Componentes/ComponenteNumerico';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -30,6 +32,12 @@ ReactDOM.render(
             <Membro nome="NomeTeste_2" />
             <Membro nome="NomeTeste_3" />
         </Familia>
+        <ComponenteCalculadora valorGeral={20}>
+            <ComponenteNumerico valorIndividual={30}/>
+            <ComponenteNumerico valorIndividual={20}/>
+            <ComponenteNumerico valorIndividual={10}/>
+            <ComponenteNumerico valorIndividual={0}/>
+        </ComponenteCalculadora>
     </React.Fragment>
     , elemento);
 
