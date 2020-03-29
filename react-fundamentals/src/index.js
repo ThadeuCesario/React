@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PrimeiroComponente from './Componentes/PrimeiroComponente'
 import SegundoComponente from './Componentes/SegundoComponente';
+import TerceiroComponente from './Componentes/TerceiroComponente';
 import ComponenteAnonimo from './Componentes/AnonComponente';
 import ComponenteArrow from './Componentes/ArrowComponente';
 import ComponenteParametro from './Componentes/ComponenteComParametro';
@@ -21,6 +22,7 @@ ReactDOM.render(
     <React.Fragment>
         <PrimeiroComponente />
         <SegundoComponente />
+        <TerceiroComponente />
         <ComponenteAnonimo />
         <ComponenteArrow />
         <ComponenteParametro info="Mensagem por parâmetro"/>
