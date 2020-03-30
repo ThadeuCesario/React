@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import PrimeiroComponente from './Componentes/PrimeiroComponente'
 import SegundoComponente from './Componentes/SegundoComponente';
@@ -6,6 +6,7 @@ import TerceiroComponente from './Componentes/TerceiroComponente';
 import ComponenteAnonimo from './Componentes/AnonComponente';
 import ComponenteArrow from './Componentes/ArrowComponente';
 import ComponenteParametro from './Componentes/ComponenteComParametro';
+import ComponenteParametroDois from './Componentes/ComponenteComParametroDois';
 import ComponenteParametroNumerico from './Componentes/ComponenteParametroNumerico';
 import {ComponenteA, ComponenteB as NomeQualquer} from './Componentes/MultiploComponente';
 import MultiElementos from './Componentes/MultiElementos';
@@ -19,13 +20,14 @@ import ComponenteFuncionalDois from './Componentes/ComponenteComFuncaoDois';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
-    <React.Fragment>
+    <Fragment>
         <PrimeiroComponente />
         <SegundoComponente />
         <TerceiroComponente />
         <ComponenteAnonimo />
         <ComponenteArrow />
         <ComponenteParametro info="Mensagem por parâmetro"/>
+        <ComponenteParametroDois nome="Componente Parametro Dois - Passando Nome"/>
         <ComponenteParametroNumerico a={5} b={6} />
         <ComponenteA infoA="Informação do primeiro componente"/>
         <NomeQualquer infoB="Informação do segundo componente"/>
@@ -44,6 +46,6 @@ ReactDOM.render(
         </ComponenteCalculadora>
         <ComponenteFucional />
         <ComponenteFuncionalDois />
-    </React.Fragment>
+    </Fragment>
     , elemento);
 
