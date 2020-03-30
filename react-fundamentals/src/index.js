@@ -17,6 +17,7 @@ import ComponenteCalculadora from './Componentes/ComponenteCalculadora';
 import ComponenteNumerico from './Componentes/ComponenteNumerico';
 import ComponenteFucional from './Componentes/ComponenteComFuncao';
 import ComponenteFuncionalDois from './Componentes/ComponenteComFuncaoDois';
+import Multi from './Componentes/ExportandoPadrão';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -46,6 +47,8 @@ ReactDOM.render(
         </ComponenteCalculadora>
         <ComponenteFucional />
         <ComponenteFuncionalDois />
+        <Multi.BoaTarde teste='Boa Tarde'/>
+        <Multi.BoaNoite testeDois='Boa Noite'/>
     </Fragment>
     , elemento);
 
