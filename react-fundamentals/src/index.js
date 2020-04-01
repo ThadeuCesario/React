@@ -18,6 +18,7 @@ import ComponenteNumerico from './Componentes/ComponenteNumerico';
 import ComponenteFucional from './Componentes/ComponenteComFuncao';
 import ComponenteFuncionalDois from './Componentes/ComponenteComFuncaoDois';
 import Multi from './Componentes/ExportandoPadrão';
+import Saudacao from './Componentes/Saudacao';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -49,6 +50,7 @@ ReactDOM.render(
         <ComponenteFuncionalDois />
         <Multi.BoaTarde teste='Boa Tarde'/>
         <Multi.BoaNoite testeDois='Boa Noite'/>
+        <Saudacao tipo='Hello' nome='World'/>
     </Fragment>
     , elemento);
 
