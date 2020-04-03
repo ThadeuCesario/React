@@ -19,6 +19,9 @@ import ComponenteFucional from './Componentes/ComponenteComFuncao';
 import ComponenteFuncionalDois from './Componentes/ComponenteComFuncaoDois';
 import Multi from './Componentes/ExportandoPadrão';
 import Saudacao from './Componentes/Saudacao';
+import Pai from './Componentes/Pai';
+import PaiDois from './Componentes/PaiDois';
+import FilhoDois from './Componentes/FilhoDois';
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
@@ -51,6 +54,13 @@ ReactDOM.render(
         <Multi.BoaTarde teste='Boa Tarde'/>
         <Multi.BoaNoite testeDois='Boa Noite'/>
         <Saudacao tipo='Hello' nome='World'/>
+        <Pai nome='ElementoPaiNome' sobrenome='ElementoPaiSobrenome' />
+
+        <PaiDois nome='João' sobrenome='Santos'>
+            <FilhoDois nome='Pedro' sobrenome='silva'/>
+            {/* <FilhoDois nome='Paulo' sobrenome='Silva'/> */}
+            {/* <FilhoDois nome='Carla' sobrenome='Silva'/> */}
+        </PaiDois>
     </Fragment>
     , elemento);
 
