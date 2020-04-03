@@ -58,8 +58,8 @@ ReactDOM.render(
 
         <PaiDois nome='João' sobrenome='Santos'>
             <FilhoDois nome='Pedro' sobrenome='silva'/>
-            {/* <FilhoDois nome='Paulo' sobrenome='Silva'/> */}
-            {/* <FilhoDois nome='Carla' sobrenome='Silva'/> */}
+            <FilhoDois nome='Paulo' sobrenome='Silva'/>
+            <FilhoDois nome='Carla' sobrenome='Silva'/>
         </PaiDois>
     </Fragment>
     , elemento);

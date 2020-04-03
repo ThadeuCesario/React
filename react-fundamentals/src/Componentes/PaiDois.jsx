@@ -21,6 +21,8 @@ export default props =>
         </h2>
         <ul>
             {/* {props.children} */}
-            {React.cloneElement(props.children, {...props, ...props.children.props})} 
+            {React.Children.map(props.children, child => {
+                return React.cloneElement(child, {...props, ...child.props})
+            })}
         </ul>
     </div>
