@@ -12,8 +12,11 @@ JSX nos permite utilizar um sintaxe muito semelhante ao código HTML. Por padrã
 no Javascript, porém o React realiza a conversão e permite a criação do elemento utilizando essa sintaxe
 muito semelhante a um código Javascript misturado com HTML.
 
-Carregando CSS:
+Carregando CSS: <br/>
 Para que nossa aplicação consiga carregar um arquivo CSS, basta realizar um import diretamente para o
 arquivo CSS desejado. Como nesse caso desejamos que a aplicação seja carregada diretamente,
 não precisamos criar nenhum nome para o import. Veja um exemplo:
 import './meucss.css'; 
+
+Nome de Componentes: 
+
