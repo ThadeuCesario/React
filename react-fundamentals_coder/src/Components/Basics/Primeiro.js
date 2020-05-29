@@ -1,5 +1,13 @@
+import React from 'react';
+
 function Primeiro(){
-    return 'Primeiro Componente';
+    const msg = 'Mensagem interpolada';
+    return (
+        <div>
+            <strong>React</strong>
+            <p>{msg}</p>
+        </div>
+    )
 }
 
 export default Primeiro;

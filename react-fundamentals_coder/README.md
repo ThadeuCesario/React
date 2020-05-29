@@ -34,3 +34,11 @@ Outro ponto importante é que os componentes são referenciados como uma tag. En
 chamado 'MeuComponente', você irá utilizar da seguinte forma: <i><MeuComponente /></i> ou <i><MeuComponent></MeuComponente></i>
 
 
+<strong>Variáveis Javascript</strong>
+<br />
+Para acessarmos variáveis javascript em nossos componentes do React, basta utilizarmos dentro de chaves. 
+Exemplo: 
+<br/>
+<i>const msg = 'Informação'</i>
+<br/>
+<i>{msg}</i>
