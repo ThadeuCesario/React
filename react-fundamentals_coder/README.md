@@ -32,6 +32,48 @@ Sempre precisaremos exportar os componentes que estamos utilizando para possamos
 <br/>
 Outro ponto importante é que os componentes são referenciados como uma tag. Então se vocẽ importou um componente
 chamado 'MeuComponente', você irá utilizar da seguinte forma: <i><MeuComponente /></i> ou <i><MeuComponent></MeuComponente></i>
+<br/>
+Ao início estamos criando componentes funcionais, ou seja, componentes baseados em funções. Mas esta não é a única
+forma de criarmos componentes. Também existem componentes baseados em classe.
+<br/>
+Vamos padronizar nossos projetos para que nossos componentes tenham a extensão JSX ou TSX. Dessa forma a IDE que estamos
+utilizando nos ajudará na codificação. Mas para o React, não haverá diferença nenhuma.
+<br/>
+Lembrando que o para nossos componentes podemos importalos com tag de abertura e fechamento, ou como tags sem fechamento.
+Por exemplo:
+
+<br/>
+< MeuComponente />
+<br />
+< MeuComponente >< /MeuComponente>
+<br/>
+<br/>
+
+<strong>Passando parâmetros para nosssos componentes</strong>
+<br/>
+No HTML passamos parametros diretamente na tag que desejamos.<br/>
+No React o processo será igual, passaremos parâmetros diretamente,
+para nossos componentes importados. Por exemplo: <br />
+<i>< MeuComponente titulo="Meu título"></MeuComponente></i>
+
+<br />
+
+<strong>Importando parâmetros em componentes</strong><br/>
+Para importarmos um parâmetro passado em nosso componente. Basta importá-los dentro de nosso componente 
+utilizando o <strong>props</strong>, e depois declará-lo no local desejado utilizando a notação ponto e dentro de chaves.
+Por exemplo: <br/>
+<pre>
+<code>
+export default function ComParametro(props){
+    return (
+        < div >
+            < h2 >{props.title}< /h2 >
+            < h3 >{props.subtitle}< /h3 >
+        < /div >
+    )
+}
+</code>
+</pre>
 
 
 <strong>Variáveis Javascript</strong>
