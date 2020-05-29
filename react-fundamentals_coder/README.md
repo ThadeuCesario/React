@@ -161,4 +161,12 @@ Seja essa tag um fragmento ou não.
 
 <hr/>
 
+<strong>Exportações</strong>
+<br/>
+Quando estamos utilizando o  <i>export.default</i>, podemos aproveitar e utilizar uma função anônima.
+Porém somente quando estamos utilizando a exportação padrão!!!<br/>
+
+
+<hr/>
+
 
