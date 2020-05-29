@@ -86,7 +86,7 @@ export default function ComParametro(props){
 </pre>
 
 <hr/>
-<strong>Mais sobre parâmetros</strong>
+<strong>Mais sobre propriedas</strong>
 <br/>
 Um erro muito comum ao se iniciar com o React é achar que podemos alterar os parâmetros passados para um componente.<br/>
 Quando criamos um determinado componente e passamos uma ou mais propriedades, essa propriedades são de <strong>somente leitura!!</strong>
@@ -107,3 +107,58 @@ Exemplo:
 <br/>
 <i>{msg}</i>
 <hr/>
+
+<strong>Erros de elementos adjacentes</strong>
+<br/>
+Para retornarmos corretamente elementos que são adjacentes em nossa aplicação, precisamos utilizar um fragmento
+para unificá-los. Por exemplo:
+<br/>
+<i>O código abaixo gera um erro: Parsing error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment</i>
+
+<code>
+<pre>
+ReactDOM.render(
+
+            <p>1)</p>
+            <Primeiro></Primeiro>
+            <hr/>
+
+            <p>2)</p>
+            <ComParametro title={'Título passado por parâmetro'} subtitle={'Subtítulo passado por parâmetro'} value={10}></ComParametro>
+            <hr/>
+    , root);
+
+</pre>
+</code>
+
+Para  resolvermos é bem simples basta utilizarmos um fragmento, por exemplo:<br/>
+
+<pre>
+<code>
+ReactDOM.render(
+        < >
+            < p> 1) < /p>
+            < Primeiro>< /Primeiro>
+            < hr/>
+            < p > 2) < /p >
+            < ComParametro title={'Título passado por parâmetro'} subtitle={'Subtítulo passado por parâmetro'} value={10}>
+            < hr/>
+        < />
+    , root);
+    
+</code>
+</pre>
+Poderíamos ter resolvido esse problema utilizando também < React.Fragment >, ou simplesmente uma div    :D.
+<br/>
+Um outro ponto é que utilizando o < React.Fragment >, podemos passar propriedades para o elemento. Utilizando a
+forma reduzida igual no exemplo anterior, não conseguimos. Exemplo: <br/><br/>
+<i>
+<React.Fragment key='123'></React.Fragment>
+</i> 
+<br/><br/>
+Lembrando que NÃO podemos retornar dois elementos adjacentes a menos que eles estejam envolvidos por alguma tag.
+Seja essa tag um fragmento ou não.
+
+<hr/>
+
+
