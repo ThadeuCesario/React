@@ -15,15 +15,15 @@ export default props => {
             <img className={'logo'} src={logo} alt={'Logo React'}/>
 
             <div className={'container-cards'}>
-                <Card titulo={'1) Interpolando valores'}>
+                <Card title={'1) Interpolando valores'} color={'#0f0'}>
                     <Primeiro></Primeiro>
                 </Card>
 
-                <Card titulo={'2) Utilizando parâmetros'}>
+                <Card title={'2) Utilizando parâmetros'} color={'#66cdaa'}>
                     <ComParametro title={'Título passado por parâmetro'} subtitle={'Subtítulo passado por parâmetro'} value={10}></ComParametro>
                 </Card>
 
-                <Card titulo={'3) Desafio'}>
+                <Card title={'3) Desafio'} color={'#3cb371'}>
                     <Aleatorio min={0} max={100}></Aleatorio>
                 </Card>
             </div>

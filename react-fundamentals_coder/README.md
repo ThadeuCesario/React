@@ -177,16 +177,32 @@ o atributo <code>ClassName</code>. Exemplo:<br/>
 Para acessarmos os elementos filhos que foram passados para seu componente,
 precisamos utilizar a propriedade <code>children</code>.
 <hr/>
+
+<strong>Style</strong>
+<br/>
+Podemos utilizar a proprieda style para passarmos CSS Inline
+para nossos componentes React. <br/>
+Um ponto de atenção é que trabalhamos com o CSS utilizando
+camelCase e não o padrão dash-case. Exemplo:
+<pre>
+<code>
+    return(
+        < div className={'card'} style={propsStyle} >
+            < div className={'title'}>{title}< /div >
+            < div className={'content'}>{props.children}< /div >
+        < /div >
+    );
+</code>
+</pre>
+<hr/>
+
 <strong>Exportações</strong>
 <br/>
 Quando estamos utilizando o  <i>export.default</i>, podemos aproveitar e utilizar uma função anônima.
 Porém somente quando estamos utilizando a exportação padrão!!!<br/>
-
-
 <hr/>
 
 
-<hr/>
 <strong></strong>
 <br/>
 <hr/>
