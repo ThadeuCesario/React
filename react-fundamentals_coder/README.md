@@ -226,6 +226,75 @@ export default props => {
 </code>
 <hr/>
 
+<strong>Passando propriedades de elemento pai para elemento filho.</strong>
+<br/>
+Vamos supor que precisamos passar uma determinada propriedade de um elemento,
+pai para um elemento filho. 
+<br/>
+<pre>
+<code>
+             < Familia lastName={'Ferreira'} >
+                        < FamiliaMembro firstName={'Thadeu'} />
+                    < /Familia>
+</code>
+</pre>
+Precisamos lembrar que no React não alteramos diretamente os elementos.
+Nesse caso que possui apenas um elemento filho, dentro do elemento pai.
+Podemos passar a propriedade lastName, da seguinte forma:
+<pre>
+<code>
+import React, {cloneElement} from 'react';
+
+export default props => {
+    return(
+        <div>
+            {cloneElement(props.children, {...props})}
+        </div>
+    )
+}
+</code>
+</pre>
+Esse método, funcionará para os casos que temos somente um elemento filho.
+<br/>
+Veja que importamos do React um método chamado cloneElement e a todo momento,
+trabalhamos com o clone do elemento e não com o elemento em si.
+Lembrando que no React não alteramos diretamente os elementos.
+<br/>
+Agora quando estamos falando de um elemento pai, precisar passar suas propriedades
+para vários elementos filhos, precisaremos adotar um novo método.
+<br/>
+Veja o exemplo:
+<br/>
+<pre>
+<code>
+    < Familia lastName={'Ferreira'}>
+                        < FamiliaMembro firstName={'Thadeu'}/>
+                        < FamiliaMembro firstName={'Karina'}/>
+                        < FamiliaMembro firstName={'Katharina'}/>
+                    < /Familia>
+</code>
+</pre>
+Neste caso, para conseguirmos passar a propriedade 'lastName', para os elementos
+filhos, precisaremos fazer o seguinte:<br/>
+<pre>
+<code>
+import React, {cloneElement} from 'react';
+
+export default props => {
+    return(
+        <div>
+            {React.Children.map(props.children, child => cloneElement(child, {...props}))}
+        </div>
+    );
+}
+</code>
+</pre>
+
+<hr/>
+
+
+
+
 
 <strong>Exportações</strong>
 <br/>

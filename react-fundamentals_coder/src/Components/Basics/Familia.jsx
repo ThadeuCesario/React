@@ -1,16 +1,14 @@
-import React from 'react';
-
-/* Import Components */
-import FamiliaMembro from "./FamiliaMembro";
+import React, {cloneElement} from 'react';
 
 export default props => {
-    const {lastName} = props;
 
     return(
         <div>
-            <FamiliaMembro firstName={'Thadeu'} lastName={lastName}></FamiliaMembro>
-            <FamiliaMembro firstName={'Karina'} {...props}></FamiliaMembro>
-            <FamiliaMembro firstName={'Katharina'} lastName='Fixo'></FamiliaMembro>
+            {
+                // React.Children.map(props.children, child => cloneElement(child, {...props}))
+
+                props.children.map((child, index) => cloneElement(child, {...props, key: index}))
+            }
         </div>
     );
 }
