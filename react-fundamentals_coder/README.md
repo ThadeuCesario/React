@@ -195,6 +195,37 @@ camelCase e não o padrão dash-case. Exemplo:
 </code>
 </pre>
 <hr/>
+<strong>Utilizando o spread</strong>
+<br/>
+Primeiramente, precisamos entender que um componente pai <strong>NÃO</strong>, passa
+suas propriedades de forma automática para seus componentes filhos.
+<br/>
+Uma outra alternativa de enviar propriedades para um componente filho, 
+é utilizando o spread para espalhar todas as propriedades que foram
+recebidas do componente pai.<br/>
+Veja o código abaixo:
+
+<code>
+<pre>
+
+
+export default props => {
+    const {lastName} = props;
+
+    return(
+        <div>
+            <FamiliaMembro firstName={'Thadeu'} lastName={lastName}></FamiliaMembro>
+            <FamiliaMembro firstName={'Karina'} {...props}></FamiliaMembro>
+            <FamiliaMembro firstName={'Katharina'} lastName='Fixo'></FamiliaMembro>
+        </div>
+    );
+}
+
+
+</pre>
+</code>
+<hr/>
+
 
 <strong>Exportações</strong>
 <br/>

@@ -5,6 +5,7 @@ import Card from "./Components/layout/Card";
 import Primeiro from "./Components/Basics/Primeiro";
 import ComParametro from "./Components/Basics/ComParametro";
 import Aleatorio from "./Components/Basics/Aleatorio";
+import Familia from "./Components/Basics/Familia";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -25,6 +26,10 @@ export default props => {
 
                 <Card title={'3) Desafio'} color={'#3cb371'}>
                     <Aleatorio min={0} max={100}></Aleatorio>
+                </Card>
+
+                <Card title={'4) Componente com filhos'} color={'#00c8f8'}>
+                    <Familia lastName={'Ferreira'}></Familia>
                 </Card>
             </div>
         </React.Fragment>
