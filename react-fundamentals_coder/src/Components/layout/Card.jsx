@@ -1,6 +1,6 @@
 import React from 'react';
 
-/* Import Css File*/
+/* Import Css File */
 import './Card.css';
 
 export default props => {
