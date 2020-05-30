@@ -1,4 +1,26 @@
 body{
     background-color: #222;
     color: #fff;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-weight: 300;
+    margin: 0;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+.logo{
+    width: 10%;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }

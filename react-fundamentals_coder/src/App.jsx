@@ -1,26 +1,32 @@
 import React from 'react';
 
 /* Import Components */
+import Card from "./Components/layout/Card";
 import Primeiro from "./Components/Basics/Primeiro";
 import ComParametro from "./Components/Basics/ComParametro";
 import Aleatorio from "./Components/Basics/Aleatorio";
 
+/* Import Images */
+import logo from './Assets/react-logo.png';
+
 export default props => {
     return(
         <React.Fragment>
+            <img className={'logo'} src={logo} alt={'Logo React'}/>
 
-            <p>1)</p>
-            <Primeiro></Primeiro>
-            <hr/>
+            <div className={'container-cards'}>
+                <Card titulo={'1) Interpolando valores'}>
+                    <Primeiro></Primeiro>
+                </Card>
 
-            <p>2)</p>
-            <ComParametro title={'Título passado por parâmetro'} subtitle={'Subtítulo passado por parâmetro'} value={10}></ComParametro>
-            <hr/>
+                <Card titulo={'2) Utilizando parâmetros'}>
+                    <ComParametro title={'Título passado por parâmetro'} subtitle={'Subtítulo passado por parâmetro'} value={10}></ComParametro>
+                </Card>
 
-            <p>3)</p>
-            <Aleatorio min={0} max={100}></Aleatorio>
-            <hr/>
-
+                <Card titulo={'3) Desafio'}>
+                    <Aleatorio min={0} max={100}></Aleatorio>
+                </Card>
+            </div>
         </React.Fragment>
     );
 }

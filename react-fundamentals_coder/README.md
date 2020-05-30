@@ -160,7 +160,23 @@ Lembrando que NÃO podemos retornar dois elementos adjacentes a menos que eles e
 Seja essa tag um fragmento ou não.
 
 <hr/>
-
+<strong>Aplicando Classes em Componentes</strong>
+<br/>
+O 'class' que utilizamos por padrão no HTML para aplicar uma classe,
+não é válido dentro do React. Mesmo porque, 'class' é uma palavra
+reservada do javascript.
+<br/>
+Portanto para aplicarmos uma classe em um determino componente, utilizamos
+o atributo <code>ClassName</code>. Exemplo:<br/>
+<code>
+    < MeuComponente ClassName='card'>< /MeuComponente >
+</code>
+<hr/>
+<strong>{props.children}</strong>
+<br/>
+Para acessarmos os elementos filhos que foram passados para seu componente,
+precisamos utilizar a propriedade <code>children</code>.
+<hr/>
 <strong>Exportações</strong>
 <br/>
 Quando estamos utilizando o  <i>export.default</i>, podemos aproveitar e utilizar uma função anônima.
@@ -169,4 +185,9 @@ Porém somente quando estamos utilizando a exportação padrão!!!<br/>
 
 <hr/>
 
+
+<hr/>
+<strong></strong>
+<br/>
+<hr/>
 
