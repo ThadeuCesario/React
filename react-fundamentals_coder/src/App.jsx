@@ -12,6 +12,7 @@ import TabelaProdutos from "./Components/Repeticao/TabelaProdutos";
 import ParOuImpar from "./Conditional/ParOuImpar";
 import UsuarioInfo from "./Conditional/UsuarioInfo";
 import DiretaPai from "./Components/Comunication/DiretaPai";
+import IndiretaPai from "./Components/Comunication/IndiretaPai";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -61,6 +62,10 @@ export default props => {
 
                 <Card title={'9) Comunicação Direta'} color={'#00A4D5'}>
                     <DiretaPai />
+                </Card>
+
+                <Card title={'10) Comunicação Indireta - utilizando estados'} color={'#A1D500'}>
+                    <IndiretaPai />
                 </Card>
 
             </div>

@@ -407,9 +407,66 @@ Bem vimos que a comunicação entre um componente pai para um componente filho,
 é feito de forma simples utilizando props, dando o nome de comunicação direta.
 <br/>
 Porém quando queremos comunicar um elemento filho para um elemento pai, o processo
-é um pouco mais complexo e aplicamos a comunicação indireta.
+é um pouco mais complexo e aplicamos a comunicação indireta. Lembrando
+que não haverá importações do componente pai dentro do componente filho.
+Portando o método de envio de propriedades não é válido.
+<br/>
+O procedimento é basicamente passar uma função via props. Desta forma, passamos
+uma função do pai para o filho e quando essa função for executada (através de algum evento),
+poderemos então passar as informações do filho para o pai.
 <hr/>
+<strong>Componente com estado</strong>
+<br/>
+Apartir do React 16.8 foram implementados os hooks. Um desses hooks,
+refere-se a ter estado dentro de nossos componentes.
+<br/><br/><strong>useState</strong>
+Apartir do hook useState, podemos utilizar estados em nosso componente.
+<br/>
+Um ponto de atenção que ao declarar o useState, teremos como retorno um array com dois elementos.
+Sendo o primeiro elemento a variável com o próprio valor e o segundo elemento é uma função.<br/>
+O melhor portanto é utilizarmos o operador de destructuring. Veja um exemplo de código:
+<pre>
+<code>
+        const [name, setName] = useState('?');
+        const [age, setAge] = useState(0);
+        const [isNerd, setIsNerd] = useState(false);
+</code>
+</pre>
+Veja que também temos um valor dentro do useState, esse é considerado o valor inicial.
+Agora, podemos utilizar as funções set que foram criadas para a alteração das variáveis.
+Veja:
+<pre>
+<code>
 
+export default props => {
+
+    const [name, setName] = useState('?');
+    const [age, setAge] = useState(0);
+    const [isNerd, setIsNerd] = useState(false);
+    
+    function getInfoMasterComponent(nameParam, ageParam, isNerdParam){
+        setName(nameParam);
+        setAge(ageParam);
+        setIsNerd(isNerdParam);
+    }
+    
+    return(
+        <div>
+            <div>
+                <span>{name} </span>
+                <span><strong>{age} </strong></span>
+                <span>{isNerd ? 'É nerd' : 'Não é nerd'}</span>
+            </div>
+            <IndiretaFilho getInfo={getInfoMasterComponent}/>
+        </div>
+    );
+}
+</code>
+</pre>
+Agora sim, estou acessando esses valores dentro de nosso componente e estou alterando o estado,
+de acordo com a chamada da função. Portanto, podemos observar que as alterações sempre partem
+dos dados para a interface gráfica e nunca da interface gráfica para os dados.
+<hr/>
 
 
 
