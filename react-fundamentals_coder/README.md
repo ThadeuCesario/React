@@ -467,6 +467,10 @@ Agora sim, estou acessando esses valores dentro de nosso componente e estou alte
 de acordo com a chamada da função. Portanto, podemos observar que as alterações sempre partem
 dos dados para a interface gráfica e nunca da interface gráfica para os dados.
 <hr/>
+<strong>Componente Controlado</strong>
+
+<br/>
+<hr/>
 
 
 
