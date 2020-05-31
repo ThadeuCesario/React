@@ -390,6 +390,27 @@ há, algum componente else. Pois não obrigatoriamente precisa conter um <em>Els
 <hr/>
 
 
+<strong>Comunicação Direta</strong>
+<br/>
+Comunicação entre componentes:<br/>
+As aplicações no React é basicamente uma árvore de componentes.<br/>
+Dentro dessa árvore de componentes é muito comum termos uma <strong>comunicação direta</strong>
+e uma <strong>comunicação indireta</strong>.
+<br/><br/>
+<strong>Comunicação Direta (props):</strong>
+A comunicação direta de um componente pai para um componente filho, é basicamente
+passar via propriedade (props), tudo aquilo que queremos passar do pai para o filho.
+Além disso, há uma referência direta porque dentro do pai haverá a importação do componente filho.
+<br/><br/>
+<strong>Comunicação Indireta:</strong>
+Bem vimos que a comunicação entre um componente pai para um componente filho,
+é feito de forma simples utilizando props, dando o nome de comunicação direta.
+<br/>
+Porém quando queremos comunicar um elemento filho para um elemento pai, o processo
+é um pouco mais complexo e aplicamos a comunicação indireta.
+<hr/>
+
+
 
 
 <strong></strong>

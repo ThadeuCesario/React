@@ -11,6 +11,7 @@ import ListaAlunos from "./Components/Repeticao/ListaAlunos";
 import TabelaProdutos from "./Components/Repeticao/TabelaProdutos";
 import ParOuImpar from "./Conditional/ParOuImpar";
 import UsuarioInfo from "./Conditional/UsuarioInfo";
+import DiretaPai from "./Components/Comunication/DiretaPai";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -53,10 +54,15 @@ export default props => {
                     <ParOuImpar number={30}/>
                 </Card>
 
-                <Card title={'8) Renderização condicional - Usando um componente específico < If >'} color={'#FA8072'}>
+                <Card title={'8) Renderização condicional - Usando um componente específico < If >'} color={'#FA3333'}>
                     <UsuarioInfo usuario={{nome: 'Fernando'}}/>
                     <UsuarioInfo usuario={{}}/>
                 </Card>
+
+                <Card title={'9) Comunicação Direta'} color={'#00A4D5'}>
+                    <DiretaPai />
+                </Card>
+
             </div>
         </React.Fragment>
     );
