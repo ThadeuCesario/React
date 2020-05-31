@@ -509,6 +509,39 @@ export default props => {
 
 
 <hr/>
+<strong>Componente Classe Vs Componente Função</strong>
+<br/>
+Com os hooks a maior parte de suas necessidades poderá ser resolvida
+componentes funcionais.
+<br/>
+Componentes baseados em classe, algumas coisas mudam. Veja um estrutura basica:
+<br/>
+<pre>
+<code>
+    import React, {Component} from 'react';
+    
+    class Contador extends Components{
+        
+        constructor(props){
+            super(props);
+            
+            this.state = {
+                numero: props.numeroInicial
+            }
+        }
+        
+        render(
+            return(
+                <div>Componente em classe</div>
+            );
+        );    
+    }
+    
+    export default Contador;
+    
+</code>
+</pre>
+<hr/>
 
 
 

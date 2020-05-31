@@ -14,6 +14,8 @@ import UsuarioInfo from "./Conditional/UsuarioInfo";
 import DiretaPai from "./Components/Comunication/DiretaPai";
 import IndiretaPai from "./Components/Comunication/IndiretaPai";
 import Input from "./Form/Input";
+import ComponenteClasse from "./Components/Basics/ComponenteClasse";
+import Contador from "./Counter/Contador";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -71,6 +73,14 @@ export default props => {
 
                 <Card title={'11) Componente Controlado'} color={'#C6B1FF'}>
                     <Input />
+                </Card>
+
+                <Card title={'12) Componente baseado em classe'} color={'#9E0046'}>
+                    <ComponenteClasse />
+                </Card>
+
+                <Card title={'13) Componente baseado em classe - contador'} color={'#bbb'}>
+                    <Contador  numeroInicial={100} valorIncremento={20}/>
                 </Card>
 
             </div>
