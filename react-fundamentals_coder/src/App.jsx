@@ -13,6 +13,7 @@ import ParOuImpar from "./Conditional/ParOuImpar";
 import UsuarioInfo from "./Conditional/UsuarioInfo";
 import DiretaPai from "./Components/Comunication/DiretaPai";
 import IndiretaPai from "./Components/Comunication/IndiretaPai";
+import Input from "./Form/Input";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -66,6 +67,10 @@ export default props => {
 
                 <Card title={'10) Comunicação Indireta - utilizando estados'} color={'#A1D500'}>
                     <IndiretaPai />
+                </Card>
+
+                <Card title={'11) Componente Controlado'} color={'#C6B1FF'}>
+                    <Input />
                 </Card>
 
             </div>

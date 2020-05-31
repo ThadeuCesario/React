@@ -468,8 +468,46 @@ de acordo com a chamada da função. Portanto, podemos observar que as alteraç�
 dos dados para a interface gráfica e nunca da interface gráfica para os dados.
 <hr/>
 <strong>Componente Controlado</strong>
-
 <br/>
+Primeiramente, devemos lembrar que não conseguimos mudar um dado, diretamente
+pela interface gráfica.<br/>
+Para isso, precisamos que seja feito uma alteração do estado e esta alteração
+refletirá na interface gráfica. Isso ocorre indiretamente apartir do eventos.
+<br/>
+O componente controlado está atrelado em um determinado estado, sendo que a interface
+gráfica será atualizada somente após a atualização do estado.
+<br/>
+Um componente não controlado não está vinculado com nenhum estado. Para isso,
+basta associar ao seu valor o undefined.
+<br/>
+Veja abaixo:
+
+<pre>
+<code>
+
+export default props => {
+
+    const [valor, setValor] = useState('Inicial')
+
+    function handleInput(event){
+        setValor(event.target.value)
+    }
+
+    return(
+        < div className={'input-data'} >
+            < input value={valor} onChange={handleInput}/ >
+            < br/ >
+            < input value={valor} readOnly/ >
+            < br/ >
+            < input value={undefined} / >
+        < /div >
+    )
+}
+
+</code>
+</pre>
+
+
 <hr/>
 
 
