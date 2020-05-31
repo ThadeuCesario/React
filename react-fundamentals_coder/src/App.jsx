@@ -56,7 +56,6 @@ export default props => {
                 <Card title={'8) Renderização condicional - Usando um componente específico < If >'} color={'#FA8072'}>
                     <UsuarioInfo usuario={{nome: 'Fernando'}}/>
                     <UsuarioInfo usuario={{}}/>
-                    <UsuarioInfo/>
                 </Card>
             </div>
         </React.Fragment>

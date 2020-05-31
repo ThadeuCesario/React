@@ -324,6 +324,73 @@ Quando estamos utilizando o  <i>export.default</i>, podemos aproveitar e utiliza
 Porém somente quando estamos utilizando a exportação padrão!!!<br/>
 <hr/>
 
+<strong>Criando componente IfElse</strong>
+<br/>
+Primeiramente criaremos uma lógica específica para a renderização, 
+do 'if'. Se formos analisar, o if é executado caso alguma condição retorne 
+verdadeiro.<br/>
+Veja o exemplo abaixo, que estamos importando de dentro de props, uma
+ propriedade chamada <em>test</em>, essa proriedade é a responsável
+ por verificar a condição passada pelo usuário e caso retorne <strong>true</strong>
+ então a condição foi validada.<br/>
+<pre>
+<code>
+export default props => {
+
+    const {test} = props;
+
+    return(
+        < div >
+            {test ? props.children : ''}
+        < /div >
+    )
+}
+</code>
+</pre>
+
+Veja um exemplo utilizando o componente <em>If</em>: <br/>
+<pre>
+<code>
+            < If test={usuario && usuario.nome} >
+               Seja bem vindo < strong >{ usuario.nome }< /strong >
+            < /If >
+</code>
+</pre>
+Nesse caso a mensagem 'Seja bem vindo....', será renderizada somente se
+a condição do usuário existir juntamente com o nome desse usuário.
+Caso contrário se uma dessas condições retornarem <strong>false</strong>,
+a mensagem não será exibida.
+<br/><br/>
+Agora vamos seguir para a codificação do componente <Else>.
+<br/>
+Antes de tudo, precisamos verificar se dentro de nosso componente <em>If</em>,
+há, algum componente else. Pois não obrigatoriamente precisa conter um <em>Else</em>.
+<br/>
+<pre>
+<code>
+    const elseChild = props.children.filter(child => {
+        return child.type && child.type.name === 'Else';
+    })[0];
+    
+    const ifChildren = props.children.filter(child => {
+        return child !== elseChild
+    })
+    
+    if([validação]){
+        return ifChildren;
+    }
+    else if(elseChild){
+        return elseChild;
+    }
+    else{
+        return false;
+    }
+</code>
+</pre>
+<hr/>
+
+
+
 
 <strong></strong>
 <br/>

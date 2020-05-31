@@ -1,21 +1,26 @@
-/*
-        <If test={exp}>
-            <span>.......</span>
-            <span>.......</span>
-            <span>.......</span>
-            <span>.......</span>
-        </If>
- */
-
 import React from 'react';
 
 export default props => {
 
     const {test} = props;
 
-    return(
-        <div>
-            {test ? props.children : ''}
-        </div>
-    )
+    const elseChild = props.children.filter(child => {
+        return child.type && child.type.name === 'Else'
+    })[0];
+
+    const ifChildren = props.children.filter(child =>{
+        return  child !== elseChild
+    });
+
+    if(test){
+        return ifChildren;
+    }
+    else if(elseChild){
+        return elseChild;
+    }
+    else{
+        return false;
+    }
 }
+
+export const Else = props => props.children
