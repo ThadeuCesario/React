@@ -8,6 +8,7 @@ import Aleatorio from "./Components/Basics/Aleatorio";
 import Familia from "./Components/Basics/Familia";
 import FamiliaMembro from "./Components/Basics/FamiliaMembro";
 import ListaAlunos from "./Components/Repeticao/ListaAlunos";
+import TabelaProdutos from "./Components/Repeticao/TabelaProdutos";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -38,8 +39,12 @@ export default props => {
                     </Familia>
                 </Card>
 
-                <Card title={'5) Repetições'} color={'#17CBEF'}>
-                    <ListaAlunos></ListaAlunos>
+                <Card title={'5) Repetições - listas'} color={'#17CBEF'}>
+                    <ListaAlunos />
+                </Card>
+
+                <Card title={'6) Repetições - tabelas'} color={'#FA33AB'}>
+                    <TabelaProdutos />
                 </Card>
             </div>
         </React.Fragment>
