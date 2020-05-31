@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 
+/* Import components */
+import Display from "./Display";
+import PassoForm from "./PassoForm";
+import Botoes from "./Botoes";
+
 class Contador extends Component{
     constructor(props) {
         super(props);
@@ -22,10 +27,10 @@ class Contador extends Component{
         });
     }
 
-    getNewValue = (event) => {
-        if(!isNaN(Number(event.target.value))){
+    getNewValue = (novoPasso) => {
+        if(!isNaN(Number(novoPasso))){
             this.setState({
-                passo: Number(event.target.value)
+                passo: Number(novoPasso)
             })
         }
         else{
@@ -39,14 +44,9 @@ class Contador extends Component{
     render() {
         return(
             <>
-                <div>Contador</div>
-                <div>Valor: {this.state.numero}</div>
-                <div>
-                    <label type={'text'}>Passo</label>
-                    <input type='number' id={'passo'} onChange={this.getNewValue} />
-                </div>
-                <button onClick={this.inc}>Incrementar</button>
-                <button onClick={this.dec}>Decrementar</button>
+                <Display value={this.state.numero}></Display>
+                <PassoForm setValue={this.getNewValue} passo={this.state.passo}></PassoForm>
+                <Botoes setInc={this.inc} setDec={this.dec}></Botoes>
             </>
         );
     }
