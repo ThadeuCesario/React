@@ -10,6 +10,7 @@ import FamiliaMembro from "./Components/Basics/FamiliaMembro";
 import ListaAlunos from "./Components/Repeticao/ListaAlunos";
 import TabelaProdutos from "./Components/Repeticao/TabelaProdutos";
 import ParOuImpar from "./Conditional/ParOuImpar";
+import UsuarioInfo from "./Conditional/UsuarioInfo";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -48,8 +49,14 @@ export default props => {
                     <TabelaProdutos />
                 </Card>
 
-                <Card title={'7) Renderização condicional'} color={'#FA8072'}>
+                <Card title={'7) Renderização condicional - Usando operações ternárias'} color={'#FA8072'}>
                     <ParOuImpar number={30}/>
+                </Card>
+
+                <Card title={'8) Renderização condicional - Usando um componente específico < If >'} color={'#FA8072'}>
+                    <UsuarioInfo usuario={{nome: 'Fernando'}}/>
+                    <UsuarioInfo usuario={{}}/>
+                    <UsuarioInfo/>
                 </Card>
             </div>
         </React.Fragment>
