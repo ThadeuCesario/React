@@ -14,6 +14,7 @@ export default props => {
                 </tr>
             </thead>
             <tbody>
+
                 {produtos.map((produto, index) => {
                     return(
                         <tr key={produto.id} className={(index % 2) === 0 ? 'par' : ''}>
