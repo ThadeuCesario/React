@@ -291,6 +291,28 @@ export default props => {
 </pre>
 
 <hr/>
+<strong>Renderização Condicional no React</strong>
+<br/>
+Quando temos interesse de renderizar um bloco do HTML de acordo
+com uma condicional, podemos utilizar as operações ternárias 
+para resolvermos esses casos.
+<br />
+Veja o exemplo:
+<pre>
+<code>
+export default props => {
+    const {number} = props;
+    let isEven = ((number%2) === 0);
+    return(
+        <div>
+            {isEven ? <span>Par</span> : <span>Ímpar</span>}
+        </div>
+    )
+}
+</code>
+</pre>
+<hr/>
+
 
 
 

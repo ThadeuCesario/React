@@ -9,6 +9,7 @@ import Familia from "./Components/Basics/Familia";
 import FamiliaMembro from "./Components/Basics/FamiliaMembro";
 import ListaAlunos from "./Components/Repeticao/ListaAlunos";
 import TabelaProdutos from "./Components/Repeticao/TabelaProdutos";
+import ParOuImpar from "./Conditional/ParOuImpar";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -45,6 +46,10 @@ export default props => {
 
                 <Card title={'6) Repetições - tabelas'} color={'#FA33AB'}>
                     <TabelaProdutos />
+                </Card>
+
+                <Card title={'7) Renderização condicional'} color={'#FA8072'}>
+                    <ParOuImpar number={30}/>
                 </Card>
             </div>
         </React.Fragment>
