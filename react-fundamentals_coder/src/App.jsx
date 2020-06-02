@@ -16,6 +16,7 @@ import IndiretaPai from "./Components/Comunication/IndiretaPai";
 import Input from "./Form/Input";
 import ComponenteClasse from "./Components/Basics/ComponenteClasse";
 import Contador from "./Counter/Contador";
+import MegaSena from "./Mega/MegaSena";
 
 /* Import Images */
 import logo from './Assets/react-logo.png';
@@ -81,6 +82,10 @@ export default props => {
 
                 <Card title={'13) Componente baseado em classe - contador'} color={'#bbb'}>
                     <Contador  numeroInicial={100} valorIncremento={20}/>
+                </Card>
+
+                <Card title={'14) Desafio Mega-Sena'} color={'#59BD24'}>
+                    <MegaSena  min={1} max={60}/>
                 </Card>
 
             </div>
