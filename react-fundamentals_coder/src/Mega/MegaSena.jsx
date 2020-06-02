@@ -36,7 +36,7 @@ export default props => {
                 }
             </div>
             <div>
-                <input type='number' id='luck-number' min={1}/>
+                <input type='number' id='luck-number' min={1} max={12}/>
                 <button onClick={() => setNumbers(getRandomValues())}>Gerar</button>
             </div>
         </>
