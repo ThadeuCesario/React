@@ -4,8 +4,15 @@ import React from 'react';
 import './Button.css';
 
 export default props => {
-    const {label} = props;
+    const {label, operation, double, triple} = props;
     return(
-        <button className={'button'}>{label}</button>
+        <button className={
+            `
+            button
+            ${operation ? 'operation' : ''}
+            ${double ? 'double' : ''}
+            ${triple ? 'triple' : ''}
+            `
+        }  onClick={e => props.click && props.click(label)}>{label}</button>
     );
 }
