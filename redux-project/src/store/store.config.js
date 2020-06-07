@@ -4,8 +4,8 @@ const reducers = combineReducers({
     numeros: function(state, action){
         console.log(`state: ${state}   --     action: ${action}`)
         return{
-            min: 1,
-            max: 10
+            min: 7,
+            max: 81
         }
     },
     nomes: function(statue, action){

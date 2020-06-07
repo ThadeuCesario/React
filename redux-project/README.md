@@ -15,6 +15,7 @@ A 'combineReducers' será responsável por pegar todas as funções dos reducers
 <hr/>
 <strong>Componente Provider</strong>
 <p>O componente provider é responsável por realizar a integração entre o React e o Redux.</p>
+
 <hr/>
 <strong>Procedimento de configuração do Redux</strong>
 <p>Criamos uma pasta chamada 'store', nessa pasta contém o arquivo 'store.config.js' que contém todos os nossos
@@ -44,3 +45,18 @@ ReactDOM.render(
 
 </pre>
 </code>
+<hr/>
+<strong>Como integrar o Redux dentro de um componente?</strong>
+<p>Antes de tudo, vamos entender um pouco sobre o padrão de projeto chamado 'Decorator'.<br/> Esse padrão
+substitui a herança utilizando a composição para que possamos acrescentar coisas a um determinado objeto.</p>
+<ul>
+    <li>Primeiramente importamos dentro de 'react-redux' o connect, que será responsável por conectar o meu componente,
+    dentro do estado da minha aplicação.<br/> Vamos utilizar o connect para devolver um componente que tenha ligação,
+    com um estado geral da minha aplicação.</li>
+    
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
