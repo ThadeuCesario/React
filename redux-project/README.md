@@ -53,8 +53,9 @@ substitui a herança utilizando a composição para que possamos acrescentar coi
     <li>Primeiramente importamos dentro de 'react-redux' o connect, que será responsável por conectar o meu componente,
     dentro do estado da minha aplicação.<br/> Vamos utilizar o connect para devolver um componente que tenha ligação,
     com um estado geral da minha aplicação.</li>
+    <li>Passar nossa função para uma constante.</li>
     
-    <li></li>
+    
     <li></li>
     <li></li>
     <li></li>
