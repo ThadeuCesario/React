@@ -1,7 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
 import Card from "./components/card/Card";
+import Intervalo from "./components/intervalo/Intervalo";
 
 
 
@@ -10,19 +12,17 @@ function App() {
     <div className="App">
         <h1>React/Redux</h1>
         <div className={'linha'}>
-            <Card title={'Card 1'} red>
-                A
-            </Card>
-            <Card title={'Card 1'} green>
-                A
-            </Card>
+            <Intervalo></Intervalo>
         </div>
         <div className={'linha'}>
+            <Card title={'Card 2'} green>
+                B
+            </Card>
             <Card title={'Card 3'} blue>
-                X
+                C
             </Card>
             <Card title={'Card 4'} purple>
-                X
+                D
             </Card>
         </div>
     </div>
