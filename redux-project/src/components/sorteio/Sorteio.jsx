@@ -4,7 +4,7 @@ import Card from "../card/Card";
 
 export default props => {
     return(
-        <Card title={'Sorteio de um Número'} green>
+        <Card title={'Sorteio de um Número'} purple>
             <div>
                 <span>
                     <span>Resultado: </span>

@@ -4,7 +4,7 @@ import Card from "../card/Card";
 
 export default props => {
     return(
-        <Card title={'Soma dos Números'} green>
+        <Card title={'Soma dos Números'} blue>
             <div>
                 <span>
                     <span>Resultado: </span>
