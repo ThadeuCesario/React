@@ -16,12 +16,12 @@ const Intarvalo = props => {
             <div className={'Intervalo'}>
                 <span>
                     <strong>Mínimo</strong>
-                    <input type="number" value={min} max={max} onChange={e => props.alterarMinimo(e.target.value)}/>
+                    <input type="number" value={min} max={max} onChange={e => props.alterarMinimo(+e.target.value)}/>
                 </span>
 
                 <span>
                     <strong>Máximo</strong>
-                    <input type="number" value={max} onChange={e => props.alterarMaximo(e.target.value)}/>
+                    <input type="number" value={max} onChange={e => props.alterarMaximo(+e.target.value)}/>
                 </span>
             </div>
         </Card>
