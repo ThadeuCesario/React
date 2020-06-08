@@ -54,10 +54,7 @@ substitui a herança utilizando a composição para que possamos acrescentar coi
     dentro do estado da minha aplicação.<br/> Vamos utilizar o connect para devolver um componente que tenha ligação,
     com um estado geral da minha aplicação.</li>
     <li>Passar nossa função para uma constante.</li>
-    
-    
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Depois crie a função MapStateToProps (passe state como parâmetro)</li>
+    <li>Depois exporte a função chamando primeiramente connect passando como parâmetro o MapStateToProps e depois
+    chame a função que está exportando</li>
 </ul>

@@ -9,8 +9,6 @@ import Sorteio from "./components/sorteio/Sorteio";
 
 function App() {
 
-  const [min, setMin] = useState(0);
-  const [max, setMax] = useState(10);
 
   return (
     <div className="App">
