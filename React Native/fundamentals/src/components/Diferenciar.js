@@ -20,5 +20,4 @@ export default props => {
             </Text>
         )
     }
-
 }
