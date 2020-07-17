@@ -15,10 +15,10 @@ import Pai from './components/Indireta/Pai';
 import Pai from './components/Indireta2/Pai';
 import ContadorV2 from './components/contador/ContadorV2'
 import Diferenciar from './components/Diferenciar';
+import ParImpar from './components/ParImpar'; 
 */
 
-import ParImpar from './components/ParImpar';
-
+import Familia from './components/relacao/Familia';
 
 export default () => {
     return(
@@ -39,8 +39,9 @@ export default () => {
                 <Pai/>
                 <ContadorV2 />
                 <Diferenciar />
+                <ParImpar  num={10}/>
             */}
-            <ParImpar  num={10}/>
+            <Familia />
         </SafeAreaView>
     )
 }
