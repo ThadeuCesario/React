@@ -1,13 +1,28 @@
 import React from 'react';
-import {View, Text, Button} from 'react-native';
+import {View, Text, Button, StyleSheet} from 'react-native';
 import Style from '../estilo';
 
 export default props => {
-    console.warn(props);
+    const {num} = props;
 
     return (
-      <Text style={Style.fontG}>
-          Contado Display Filho
-      </Text>
+        <View style={style.Display}>
+            <Text style={[Style.fontG, style.DisplayText]}>
+                {num}
+            </Text>
+        </View>
     );
 } 
+
+const style = StyleSheet.create({
+    Display: {
+      backgroundColor: "#000",
+      width: "100%",
+      padding: 20,
+      marginTop: 30
+    },
+
+    DisplayText: {
+        color: "#fff"
+    }
+  });
