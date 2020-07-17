@@ -5,7 +5,7 @@ export default props => {
     
     const {inc, dec} = props;
 
-    console.warn(inc);
+    //console.warn(inc);
     
     return(
         <React.Fragment>
