@@ -12,9 +12,9 @@ import Botao from './components/Botao';
 import Contador from './components/Contador';
 import Pai from './components/Direta/Pai'; 
 import Pai from './components/Indireta/Pai';
-*/
-
 import Pai from './components/Indireta2/Pai';
+*/
+import ContadorV2 from './components/contador/ContadorV2'
 
 export default () => {
     return(
@@ -32,8 +32,9 @@ export default () => {
                 <Contador inicial={10} />
                 <Pai />
                 <Pai />
+                <Pai/>
             */}
-            <Pai/>
+            <ContadorV2 />
         </View>
     )
 }
