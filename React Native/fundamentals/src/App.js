@@ -11,8 +11,10 @@ import Titulo from './components/Titulo';
 import Botao from './components/Botao';
 import Contador from './components/Contador';
 import Pai from './components/Direta/Pai'; 
-*/
 import Pai from './components/Indireta/Pai';
+*/
+
+import Pai from './components/Indireta2/Pai';
 
 export default () => {
     return(
@@ -29,8 +31,9 @@ export default () => {
                 <Botao />
                 <Contador inicial={10} />
                 <Pai />
+                <Pai />
             */}
-            <Pai />
+            <Pai/>
         </View>
     )
 }
