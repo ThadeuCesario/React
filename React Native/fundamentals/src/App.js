@@ -19,6 +19,7 @@ import ParImpar from './components/ParImpar';
 */
 
 import Familia from './components/relacao/Familia';
+import Membro from './components/relacao/Membro';
 
 export default () => {
     return(
@@ -41,7 +42,14 @@ export default () => {
                 <Diferenciar />
                 <ParImpar  num={10}/>
             */}
-            <Familia />
+            <Familia>
+                <Membro nome={'Ana'} sobrenome={'Silva'}/>
+                <Membro nome={'Maria'} sobrenome={'Silva'}/>
+            </Familia>
+            <Familia>
+                <Membro nome={'Paulo'} sobrenome={'Lima'}/>
+                <Membro nome={'Pedro'} sobrenome={'Lima'}/>
+            </Familia>
         </SafeAreaView>
     )
 }

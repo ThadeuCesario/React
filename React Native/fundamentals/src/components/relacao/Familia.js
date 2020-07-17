@@ -1,11 +1,11 @@
 import React from 'react';
-import Filho from './Membro';
 
 export default props => {
+    //console.warn(props.children);
+    
     return (
         <React.Fragment>
-            <Filho nome={'Ana'} sobrenome={'Silva'} />
-            <Filho nome={'Silva'} sobrenome={'Silva'} />
+            {props.children}
         </React.Fragment>
     )
 }
