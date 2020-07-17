@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, SafeAreaView} from 'react-native';
 
 /* Components */
 /* 
@@ -14,13 +14,15 @@ import Pai from './components/Direta/Pai';
 import Pai from './components/Indireta/Pai';
 import Pai from './components/Indireta2/Pai';
 import ContadorV2 from './components/contador/ContadorV2'
+import Diferenciar from './components/Diferenciar';
 */
 
-import Diferenciar from './components/Diferenciar';
+import ParImpar from './components/ParImpar';
+
 
 export default () => {
     return(
-        <View style={style.App}>
+        <SafeAreaView style={style.App}>
             {/* 
                 <PrimeiroComponente></PrimeiroComponente>
                 <MultiComponenteOne />
@@ -36,9 +38,10 @@ export default () => {
                 <Pai />
                 <Pai/>
                 <ContadorV2 />
+                <Diferenciar />
             */}
-            <Diferenciar />
-        </View>
+            <ParImpar />
+        </SafeAreaView>
     )
 }
 
