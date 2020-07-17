@@ -163,8 +163,12 @@
   </p>
 
   <hr/>
-  <strong></strong>
-  <p></p>
+  <strong>Quando dividir um componente em múltiplos componentes?</strong>
+  <br/>Critérios:
+  <ul>
+    <li>Reuso</li>
+    <li>Componente muito grande</li>
+  </ul>
 
   <hr/>
   <strong></strong>
