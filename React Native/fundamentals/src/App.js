@@ -40,7 +40,7 @@ export default () => {
                 <ContadorV2 />
                 <Diferenciar />
             */}
-            <ParImpar />
+            <ParImpar  num={10}/>
         </SafeAreaView>
     )
 }
