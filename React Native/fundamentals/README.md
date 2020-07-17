@@ -171,8 +171,11 @@
   </ul>
 
   <hr/>
-  <strong></strong>
+  <strong>Diferenciando iOS de Android</strong>
   <p></p>
+
+
+
 
   <hr/>
   <strong></strong>

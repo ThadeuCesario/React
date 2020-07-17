@@ -13,8 +13,10 @@ import Contador from './components/Contador';
 import Pai from './components/Direta/Pai'; 
 import Pai from './components/Indireta/Pai';
 import Pai from './components/Indireta2/Pai';
-*/
 import ContadorV2 from './components/contador/ContadorV2'
+*/
+
+import Diferenciar from './components/Diferenciar';
 
 export default () => {
     return(
@@ -33,8 +35,9 @@ export default () => {
                 <Pai />
                 <Pai />
                 <Pai/>
+                <ContadorV2 />
             */}
-            <ContadorV2 />
+            <Diferenciar />
         </View>
     )
 }
