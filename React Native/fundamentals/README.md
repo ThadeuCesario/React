@@ -172,7 +172,49 @@
 
   <hr/>
   <strong>Diferenciando iOS de Android</strong>
-  <p></p>
+  <p>
+  Para diferenciarmos se estamos rodando em uma plataforma <strong>Android</strong>, ou uma plataforma <strong>iOS</strong>.
+  <br/>
+  Basta importarmos de dentro do <code>React Native</code>, o 'Plataform'. 
+  <br/>
+  Dessa forma, podemos fazer algumas condicionais apontando qual plataforma que desejamos trabalhar. 
+  <br/>
+  Veja o exemplo abaixo: 
+
+  <code>
+  <pre>
+      import React from 'react';
+      import {Text, View, Button, Platform} from 'react-native';
+      import Style from './estilo';
+
+      export default props => {
+          if(Platform.OS === "android"){
+              return(
+                  <Text style={Style.fontG}>Android</Text>
+              )
+          }
+          else if(Platform.OS === "ios"){
+              return(
+                  <Text style={Style.fontG}>iOS</Text>
+              )
+          }
+          else{
+              return(
+                  <Text style={Style.fontG}>
+                      OMNI (Objeto Mobile Não Identificado)! LoL
+                  </Text>
+              )
+          }
+      }
+  </pre>
+  </code>
+  </p>
+Veja no código anterior que realizamos uma comparação no atributo OS de Plataform. <br/>
+Exemplo <strong>(Se for android)</strong>: <br/>
+<code>if(Plataform.OS === "android")</code>
+<br/><br/><br/>
+<strong>(Se for ios)</strong>: <br/>
+<code>if(Plataform.OS === "ios")</code>
 
 
 
