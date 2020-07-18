@@ -4,7 +4,7 @@ import Style from './estilo';
 import If from './If';
 
 export default props => {
-    const {usuario = {}} = props;
+    const {usuario} = props || {};
 
     return (
     <React.Fragment>
