@@ -18,8 +18,10 @@ import Diferenciar from './components/Diferenciar';
 import ParImpar from './components/ParImpar'; 
 import Familia from './components/relacao/Familia';
 import Membro from './components/relacao/Membro';
-*/
 import UsuarioLogado from './components/UsuarioLogado';
+*/
+
+import ListaProdutos from './components/Produtos/ListaProdutos';
 
 
 export default () => {
@@ -50,11 +52,12 @@ export default () => {
                     <Membro nome={'Paulo'} sobrenome={'Lima'}/>
                     <Membro nome={'Pedro'} sobrenome={'Lima'}/>
                 </Familia>
+                <UsuarioLogado usuario={{nome:'Thadeu', email: 'thadeu@123.com'}}/>
+                <UsuarioLogado usuario={{nome:'Ana'}}/>
+                <UsuarioLogado usuario={{email: 'teste@123.com'}}/>
+                <UsuarioLogado usuario={{nome:'Karina', email: 'karina@123.com'}}/>
             */}
-            <UsuarioLogado usuario={{nome:'Thadeu', email: 'thadeu@123.com'}}/>
-            <UsuarioLogado usuario={{nome:'Ana'}}/>
-            <UsuarioLogado usuario={{email: 'teste@123.com'}}/>
-            <UsuarioLogado usuario={{nome:'Karina', email: 'karina@123.com'}}/>
+            <ListaProdutos />
         </SafeAreaView>
     )
 }
