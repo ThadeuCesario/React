@@ -19,9 +19,10 @@ import ParImpar from './components/ParImpar';
 import Familia from './components/relacao/Familia';
 import Membro from './components/relacao/Membro';
 import UsuarioLogado from './components/UsuarioLogado';
+import ListaProdutos from './components/Produtos/ListaProdutos';
 */
 
-import ListaProdutos from './components/Produtos/ListaProdutos';
+import ListaProdutos from './components/Produtos/ListaProdutosV2';
 
 
 export default () => {
@@ -56,6 +57,7 @@ export default () => {
                 <UsuarioLogado usuario={{nome:'Ana'}}/>
                 <UsuarioLogado usuario={{email: 'teste@123.com'}}/>
                 <UsuarioLogado usuario={{nome:'Karina', email: 'karina@123.com'}}/>
+                <ListaProdutos />
             */}
             <ListaProdutos />
         </SafeAreaView>
