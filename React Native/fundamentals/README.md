@@ -220,5 +220,5 @@ Exemplo <strong>(Se for android)</strong>: <br/>
 
 
   <hr/>
-  <strong></strong>
+  <strong>FlatList</strong>
   <p></p>
