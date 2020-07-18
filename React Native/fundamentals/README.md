@@ -221,4 +221,31 @@ Exemplo <strong>(Se for android)</strong>: <br/>
 
   <hr/>
   <strong>FlatList</strong>
-  <p></p>
+  <p>
+  Outro método além do map para renderizar uma lista pelo React, é utilizando o Flatlist.
+  <br/>
+  Para isso, devemos realizar da seguinte forma:
+  <code>
+  <pre>
+            < FlatList data={produtos} renderItem={(element) => {
+                const {item} = element;
+                return(
+                < Text>{item.nome}, {item.preco}< /Text> 
+                )
+            }}/>
+  </pre>
+  </code>
+  </p>
+  <strong>
+  Veja que para o FlatList, precisamos passar dois atributos:<br/>
+  => data<br/>
+  => renderItem<br/>
+  O data possui o objeto que vamos renderizar em lista. <br/>
+  O renderItem é a função que percorrerá cada item. Lembre-se que não passamos o elemento individual diretamente, mas sim o item de uma forma geral.<br/>
+  <br/>
+  Por isso, realizei o destructuring. 
+  <br/>
+  <code>
+  const {item} = element;
+  </code>
+  </strong>
