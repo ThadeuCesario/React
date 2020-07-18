@@ -227,12 +227,16 @@ Exemplo <strong>(Se for android)</strong>: <br/>
   Para isso, devemos realizar da seguinte forma:
   <code>
   <pre>
-            < FlatList data={produtos} renderItem={(element) => {
-                const {item} = element;
-                return(
-                < Text>{item.nome}, {item.preco}< /Text> 
-                )
-            }}/>
+            < FlatList 
+              data={produtos} 
+              keyExtractor={i => `${i.id}`}
+              renderItem={(element) => {
+                  const {item} = element;
+                  return(
+                    < Text>{item.nome}, {item.preco}< /Text> 
+                  )
+              }
+            }/>
   </pre>
   </code>
   </p>
@@ -240,8 +244,11 @@ Exemplo <strong>(Se for android)</strong>: <br/>
   Veja que para o FlatList, precisamos passar dois atributos:<br/>
   => data<br/>
   => renderItem<br/>
-  O data possui o objeto que vamos renderizar em lista. <br/>
-  O renderItem é a função que percorrerá cada item. Lembre-se que não passamos o elemento individual diretamente, mas sim o item de uma forma geral.<br/>
+  => keyExtractor<br/><br/>
+  O data possui o objeto que vamos renderizar em lista. <br/><br/>
+  O renderItem é a função que percorrerá cada item. Lembre-se que não passamos o elemento individual diretamente, mas sim o item de uma forma geral.<br/><br/>
+  O KeyExtractor serve para gerar uma chave específica para o elemento.
+  <br/><br/>
   <br/>
   Por isso, realizei o destructuring. 
   <br/>
