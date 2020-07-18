@@ -16,10 +16,11 @@ import Pai from './components/Indireta2/Pai';
 import ContadorV2 from './components/contador/ContadorV2'
 import Diferenciar from './components/Diferenciar';
 import ParImpar from './components/ParImpar'; 
-*/
-
 import Familia from './components/relacao/Familia';
 import Membro from './components/relacao/Membro';
+*/
+import UsuarioLogado from './components/UsuarioLogado';
+
 
 export default () => {
     return(
@@ -41,15 +42,19 @@ export default () => {
                 <ContadorV2 />
                 <Diferenciar />
                 <ParImpar  num={10}/>
+                <Familia>
+                    <Membro nome={'Ana'} sobrenome={'Silva'}/>
+                    <Membro nome={'Maria'} sobrenome={'Silva'}/>
+                </Familia>
+                <Familia>
+                    <Membro nome={'Paulo'} sobrenome={'Lima'}/>
+                    <Membro nome={'Pedro'} sobrenome={'Lima'}/>
+                </Familia>
             */}
-            <Familia>
-                <Membro nome={'Ana'} sobrenome={'Silva'}/>
-                <Membro nome={'Maria'} sobrenome={'Silva'}/>
-            </Familia>
-            <Familia>
-                <Membro nome={'Paulo'} sobrenome={'Lima'}/>
-                <Membro nome={'Pedro'} sobrenome={'Lima'}/>
-            </Familia>
+            <UsuarioLogado usuario={{nome:'Thadeu', email: 'thadeu@123.com'}}/>
+            <UsuarioLogado usuario={{nome:'Ana'}}/>
+            <UsuarioLogado usuario={{email: 'teste@123.com'}}/>
+            <UsuarioLogado usuario={{nome:'Karina', email: 'karina@123.com'}}/>
         </SafeAreaView>
     )
 }
