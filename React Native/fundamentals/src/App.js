@@ -25,9 +25,10 @@ import DigiteSeuNome from './components/DigiteSeuNome';
 import FlexboxV1 from './components/Layout/FlexboxV1';
 import FlexboxV2 from './components/Layout/FlexboxV2';
 import FlexboxV3 from './components/Layout/FlexboxV3';
+import FlexboxV4 from './components/Layout/FlexboxV4';
 */
 
-import FlexboxV4 from './components/Layout/FlexboxV4';
+import Mega from './components/Mega/Mega';
 
 export default () => {
     return(
@@ -67,8 +68,9 @@ export default () => {
                 <FlexboxV1 />
                 <FlexboxV2 />
                 <FlexboxV3 />
+                <FlexboxV4 />
             */}
-            <FlexboxV4 />
+            <Mega />
         </SafeAreaView>
     )
 }
