@@ -321,6 +321,8 @@ Exemplo <strong>(Se for android)</strong>: <br/>
 
   <br/>
 
+  Portanto um componente controlado, não possui nenhum vínculo com nenhum estado.
+
    <hr/>
   <strong></strong>
   <p>
