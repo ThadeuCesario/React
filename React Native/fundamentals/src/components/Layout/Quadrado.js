@@ -3,7 +3,7 @@ import {View, Text, Button, StyleSheet} from 'react-native';
 
 export default props => {
 
-    const size = 100;
+    const size = props.lado || 50;
 
     return (
       <View style={{
