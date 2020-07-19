@@ -28,9 +28,11 @@ export default class Mega extends Component{
                 {this.state.qtdeNumeros}
             </Text>
             <TextInput 
+                style={{borderBottomWidth: 1}}
+                keyboardType={'numeric'}
                 placeholder={'Quantidade de números'}
                 value={`${this.state.qtdeNumeros}`}
-                onChangeText={this.alterarQtdeNumeros}
+                onChangeText={valor => this.alterarQtdeNumeros(valor)}
                 />
         </>
         )
