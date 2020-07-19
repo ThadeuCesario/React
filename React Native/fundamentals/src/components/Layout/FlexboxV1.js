@@ -18,6 +18,6 @@ const style = StyleSheet.create({
     flexV1: {
         flex: 1,
         backgroundColor: '#000',
-        justifyContent: "center",
+        justifyContent: "space-between",
     }
 })
