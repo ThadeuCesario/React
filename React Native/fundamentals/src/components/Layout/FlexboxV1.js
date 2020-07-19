@@ -6,7 +6,7 @@ import Quadrado from './Quadrado';
 export default props => {
     return (
       <View style={style.flexV1}>
-            <Quadrado />
+            <Quadrado color={'gold'}/>
             <Quadrado color={'#f00'}/>
             <Quadrado color={'#0f0'}/>
             <Quadrado color={'#00f'}/>      
@@ -17,6 +17,7 @@ export default props => {
 const style = StyleSheet.create({
     flexV1: {
         flex: 1,
-        backgroundColor: '#000'
+        backgroundColor: '#000',
+        justifyContent: "center",
     }
 })

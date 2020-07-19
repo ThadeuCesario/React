@@ -326,11 +326,11 @@ Exemplo <strong>(Se for android)</strong>: <br/>
    <hr/>
   <strong>Falando mais sobre FLEXBOX</strong>
   <p>
-    Primeiramente: 
-    <br/>
     Quando colocamos <code>flex:1</code> ou <code>flexGrow:1</code><br/>
     Setamos para que o elemento ocupe toda a área disponível.
+    <br/><br/>
   </p>
+  Para trabalharmos o eixo principal, utilizamos a propriedade <code>justify-content</code>
   <br/>
 
    <hr/>
