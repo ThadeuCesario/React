@@ -22,8 +22,10 @@ import UsuarioLogado from './components/UsuarioLogado';
 import ListaProdutos from './components/Produtos/ListaProdutos';
 import ListaProdutos from './components/Produtos/ListaProdutosV2';
 import DigiteSeuNome from './components/DigiteSeuNome';
-*/
 import FlexboxV1 from './components/Layout/FlexboxV1';
+*/
+
+import FlexboxV2 from './components/Layout/FlexboxV2';
 
 export default () => {
     return(
@@ -60,8 +62,9 @@ export default () => {
                 <ListaProdutos />
                 <ListaProdutos />
                 <DigiteSeuNome />
+                <FlexboxV1 />
             */}
-            <FlexboxV1 />
+            <FlexboxV2 />
         </SafeAreaView>
     )
 }

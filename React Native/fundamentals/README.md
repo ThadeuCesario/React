@@ -331,7 +331,8 @@ Exemplo <strong>(Se for android)</strong>: <br/>
     <br/><br/>
   </p>
   Para trabalharmos o eixo principal, utilizamos a propriedade <code>justify-content</code>
-  <br/>
+  <br/> <br/>
+  <strong>Qualquer View no React Native, utiliza flexbox.</strong>
 
    <hr/>
   <strong></strong>
