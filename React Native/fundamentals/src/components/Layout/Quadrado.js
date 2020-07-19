@@ -3,10 +3,12 @@ import {View, Text, Button, StyleSheet} from 'react-native';
 
 export default props => {
 
+    const size = 100;
+
     return (
       <View style={{
-        height: 20,
-        width: 20,
+        height: size,
+        width: size,
         backgroundColor: props.color || '#000', 
       }}>
               

@@ -23,7 +23,7 @@ import ListaProdutos from './components/Produtos/ListaProdutos';
 import ListaProdutos from './components/Produtos/ListaProdutosV2';
 import DigiteSeuNome from './components/DigiteSeuNome';
 */
-import Quadrado from './components/Quadrado';
+import FlexboxV1 from './components/Layout/FlexboxV1';
 
 export default () => {
     return(
@@ -61,10 +61,7 @@ export default () => {
                 <ListaProdutos />
                 <DigiteSeuNome />
             */}
-            <Quadrado />
-            <Quadrado color={'#f00'}/>
-            <Quadrado color={'#0f0'}/>
-            <Quadrado color={'#00f'}/>
+            <FlexboxV1 />
         </SafeAreaView>
     )
 }

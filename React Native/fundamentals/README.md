@@ -324,8 +324,12 @@ Exemplo <strong>(Se for android)</strong>: <br/>
   Portanto um componente controlado, não possui nenhum vínculo com nenhum estado.
 
    <hr/>
-  <strong></strong>
+  <strong>Falando mais sobre FLEXBOX</strong>
   <p>
+    Primeiramente: 
+    <br/>
+    Quando colocamos <code>flex:1</code> ou <code>flexGrow:1</code><br/>
+    Setamos para que o elemento ocupe toda a área disponível.
   </p>
   <br/>
 
