@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Text, View, Button, TextInput} from 'react-native';
 import Estilo from '../estilo';
+import MegaNumero from './MegaNumero';
 
 export default class Mega extends Component{
 
@@ -37,20 +38,30 @@ export default class Mega extends Component{
     */
 
    gerarNumeros = () =>{
-    const {qtdeNumeros} = this.state;
-    const numeros = [];
+        const {qtdeNumeros} = this.state;
+        const numeros = [];
 
-    for(let i = 0; i < qtdeNumeros; i++){
-        numeros.push(this.gerarNumeroNaoContido(numeros));
+        for(let i = 0; i < qtdeNumeros; i++){
+            numeros.push(this.gerarNumeroNaoContido(numeros));
+        }
+
+        numeros.sort((a,b) => a - b);
+
+        this.setState({
+            numeros
+        })
+
     }
 
-    numeros.sort((a,b) => a - b);
-
-    this.setState({
-        numeros
-    })
-
+    exibirNumeros  = () => {
+        const nums = this.state.numeros;
+        return nums.map((num, index) => {
+            return(
+                <MegaNumero num={num} key={index}/>
+            )
+        })
     }
+
 
     render(){
         return(
@@ -69,9 +80,9 @@ export default class Mega extends Component{
             
             <Button title={'Gerar'} onPress={this.gerarNumeros}/>
             
-            <Text style={Estilo.fontG}>
-                {this.state.numeros.join(',')}
-            </Text>
+            <View style={{flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', margin: 20}}>
+                {this.exibirNumeros()}
+            </View>
         </>
         )
     }
