@@ -70,7 +70,7 @@ export default () => {
                 <FlexboxV3 />
                 <FlexboxV4 />
             */}
-            <Mega nome={'Thadeu'}/>
+            <Mega qtdeNumeros={7}/>
         </SafeAreaView>
     )
 }
