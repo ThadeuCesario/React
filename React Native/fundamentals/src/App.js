@@ -21,9 +21,9 @@ import Membro from './components/relacao/Membro';
 import UsuarioLogado from './components/UsuarioLogado';
 import ListaProdutos from './components/Produtos/ListaProdutos';
 import ListaProdutos from './components/Produtos/ListaProdutosV2';
-*/
-
 import DigiteSeuNome from './components/DigiteSeuNome';
+*/
+import Quadrado from './components/Quadrado';
 
 export default () => {
     return(
@@ -59,8 +59,12 @@ export default () => {
                 <UsuarioLogado usuario={{nome:'Karina', email: 'karina@123.com'}}/>
                 <ListaProdutos />
                 <ListaProdutos />
+                <DigiteSeuNome />
             */}
-            <DigiteSeuNome />
+            <Quadrado />
+            <Quadrado color={'#f00'}/>
+            <Quadrado color={'#0f0'}/>
+            <Quadrado color={'#00f'}/>
         </SafeAreaView>
     )
 }
