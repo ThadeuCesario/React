@@ -335,11 +335,29 @@ Exemplo <strong>(Se for android)</strong>: <br/>
   <strong>Qualquer View no React Native, utiliza flexbox.</strong>
 
    <hr/>
-  <strong></strong>
+  <strong>Componentes baseados em classe</strong>
   <p>
+  Outra forma que podemos criar componentes é utilizando classes. 
+  Porém esse método não é tão utilizado, principalmente com a criação do <code>Hooks</code>. 
   </p>
   <br/>
-
+  Veja um exemplo de código criado utilizando classe.
+  <br/>
+  <code>
+  <pre>
+  import React, { Component } from 'react';
+  import {Text, View, Button} from 'react-native';
+  import Estilo from '../estilo';
+  export default class Mega extends Component{
+    render(){
+        return(
+        < Text style={Estilo.fontG}>{this.props.nome}< /Text> 
+        )
+    }
+  }
+  </pre>
+  </code>
+  <strong>Precisamos utilizar o <em>this</em> para acessarmos uma propriedade.</strong>
    <hr/>
   <strong></strong>
   <p>
