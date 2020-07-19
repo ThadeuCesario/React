@@ -1,3 +1,4 @@
+<article>
 <h1>Fundamentos React Native</h1>
   <strong>SafeAreaView</strong>:
   <p>
@@ -48,10 +49,11 @@
       </pre>
     </code>
 
-   Veja,  que eu criei uma variável para incrementar Min e outra para incrementar Max. <br/>
-   Não incrimentei diretamente o valor dele. 
-   <br/>
-   Em breve veremos os estados. ;D
+Veja, que eu criei uma variável para incrementar Min e outra para incrementar Max. <br/>
+Não incrimentei diretamente o valor dele.
+<br/>
+Em breve veremos os estados. ;D
+
    <hr/>
 <strong>React Fragment</strong>
   <p>
@@ -79,7 +81,7 @@
   <strong>Passando uma função como referência</strong>
   <p>
     Passar uma função como referência é diferente de executar uma função.
-    Veja o código abaixo: 
+    Veja o código abaixo:
 
     <code>
       <pre>
@@ -96,14 +98,14 @@
       </pre>
     </code>
 
-  Veja que no 'onPress' coloquei a função sem os parenteses. Isso porque estou fazendo uma referência para aquela função.
+Veja que no 'onPress' coloquei a função sem os parenteses. Isso porque estou fazendo uma referência para aquela função.
+
   </p>
   <hr/>
   <strong>Criando Button no React Native</strong>
   <p>
     Bem para isso o procedimento é muito simples. <br/>
-    Basta importar o 'Button' do react-native e utilizá-lo. 
-
+    Basta importar o 'Button' do react-native e utilizá-lo.
 
   </p>
 
@@ -179,7 +181,7 @@
   <br/>
   Dessa forma, podemos fazer algumas condicionais apontando qual plataforma que desejamos trabalhar. 
   <br/>
-  Veja o exemplo abaixo: 
+  Veja o exemplo abaixo:
 
   <code>
   <pre>
@@ -206,6 +208,7 @@
               )
           }
       }
+
   </pre>
   </code>
   </p>
@@ -215,9 +218,6 @@ Exemplo <strong>(Se for android)</strong>: <br/>
 <br/><br/><br/>
 <strong>(Se for ios)</strong>: <br/>
 <code>if(Plataform.OS === "ios")</code>
-
-
-
 
   <hr/>
   <strong>FlatList</strong>
@@ -271,6 +271,89 @@ Exemplo <strong>(Se for android)</strong>: <br/>
     </li>
     <li>Criar a função onChangeText</li>
   </ul>
+
+  <code>
+  <pre>
+  export default props => {
+    const [nome, setNome] = useState('Teste')
+    return (
+      < View style={Style.fontG}>
+        < Text>{nome}< /Text>
+        < TextInput placeholder={'Digite seu nome'} value={nome} onChangeText={nome => setNome(nome)}/>
+      < /View>
+    );
+}
+  </pre>
+  </code>
+
+
   Desta forma, a função é invocada, nosso estado é alterado e nossa interface é atualizada! <br/>
   ;D Show!
   <br/>
+
+  <hr/>
+  <strong>Componente Controlado</strong>
+  <p> 
+    Quando um componente é alterado com base em seu estado. Um evento acontece, é chamado uma função e o componente é atualizado.
+  </p>
+  <br/>
+
+   <hr/>
+  <strong>Componente Não Controlado</strong>
+  <p>
+    Para termos um componente não controlado, basta colocar o <code>Value</code> do <code>< TextInput /></code>, como sendo null.<br/>
+    
+  </p>
+  <br/><strong>Veja o exemplo abaixo:</strong><br/>
+    <code>
+  <pre>
+  export default props => {
+    const [nome, setNome] = useState('Teste')
+    return (
+      < View style={Style.fontG}>
+        < Text>{nome}< /Text>
+        < TextInput placeholder={'Digite seu nome'} value={null} onChangeText={nome => setNome(nome)}/>
+      < /View>
+    );
+}
+  </pre>
+  </code>
+
+  <br/>
+
+   <hr/>
+  <strong></strong>
+  <p>
+  </p>
+  <br/>
+
+   <hr/>
+  <strong></strong>
+  <p>
+  </p>
+  <br/>
+
+   <hr/>
+  <strong></strong>
+  <p>
+  </p>
+  <br/>
+
+   <hr/>
+  <strong></strong>
+  <p>
+  </p>
+  <br/>
+
+   <hr/>
+  <strong></strong>
+  <p>
+  </p>
+  <br/>
+
+   <hr/>
+  <strong></strong>
+  <p>
+  </p>
+  <br/>
+</article>
