@@ -256,3 +256,21 @@ Exemplo <strong>(Se for android)</strong>: <br/>
   const {item} = element;
   </code>
   </strong>
+  
+  <br/>
+  <hr/>
+  <strong>Fluxo das alterações</strong>
+  <p>
+  As atualizações são sempre realizadas de forma unidirecional. <br/>
+  Somente quando o estado de um componente for atualizado, que sua aplicação será atualizada. <br/>
+  </p>
+  Quando trabalhamos com TextInput, precisamos seguir o seguinte fluxo:
+  <ul>
+    <li>
+      Criar o 	&nbsp;	&nbsp;<code>< TextInput /></code>
+    </li>
+    <li>Criar a função onChangeText</li>
+  </ul>
+  Desta forma, a função é invocada, nosso estado é alterado e nossa interface é atualizada! <br/>
+  ;D Show!
+  <br/>

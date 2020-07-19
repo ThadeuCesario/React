@@ -20,10 +20,10 @@ import Familia from './components/relacao/Familia';
 import Membro from './components/relacao/Membro';
 import UsuarioLogado from './components/UsuarioLogado';
 import ListaProdutos from './components/Produtos/ListaProdutos';
+import ListaProdutos from './components/Produtos/ListaProdutosV2';
 */
 
-import ListaProdutos from './components/Produtos/ListaProdutosV2';
-
+import DigiteSeuNome from './components/DigiteSeuNome';
 
 export default () => {
     return(
@@ -58,8 +58,9 @@ export default () => {
                 <UsuarioLogado usuario={{email: 'teste@123.com'}}/>
                 <UsuarioLogado usuario={{nome:'Karina', email: 'karina@123.com'}}/>
                 <ListaProdutos />
+                <ListaProdutos />
             */}
-            <ListaProdutos />
+            <DigiteSeuNome />
         </SafeAreaView>
     )
 }
