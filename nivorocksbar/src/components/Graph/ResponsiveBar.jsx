@@ -71,10 +71,10 @@ const ResponsiveBarComponent = ({ data /* see data tab */ }) => (
                 {
                     dataFrom: 'keys',
                     anchor: 'bottom-right',
-                    direction: 'column',
+                    direction: 'row',
                     justify: false,
-                    translateX: 120,
-                    translateY: 0,
+                    translateX: 100,
+                    translateY: 60,
                     itemsSpacing: 2,
                     itemWidth: 100,
                     itemHeight: 20,
