@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, StatusBar} from 'react-native';
 
 /**
  * As tags dentro do React Native, não possuem valor semântico.
@@ -11,13 +11,19 @@ import {View, Text, StyleSheet} from 'react-native';
  * 
  * View: div, footer, header, main, aside, section
  * Text: p, span, strong, h1, h2, h3.
+ * 
+ * Podemos controlar nossa statusBar (a barra que fica no top), utilizando a importação dela. 
+ * Pelo StatusBar e em seguida, aplicar diferentes estilos utilizando o barStyle.
  */
 
 export default App = _ny => {
   return(
-    <View style={styles.container}>
+    <>
+      <StatusBar barStyle={'dark-content'}/>
+      <View style={styles.container}>
         <Text style={styles.title}>Hello GoStack.</Text>
-    </View>
+      </View>
+    </>
   );
 }
 
