@@ -2,7 +2,6 @@ import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 
 import Field from './src/components/Field';
-import Mine from './src/components/Mine';
 
 import params from './src/params';
 
@@ -23,7 +22,7 @@ const App = (props) => {
       <Field opened nearMines={6} />
       <Field opened nearMines={7} />
       <Field opened nearMines={8} />
-      <Mine />
+      <Field mined opened />
     </SafeAreaView>
   );
 };

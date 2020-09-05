@@ -9,7 +9,7 @@ export default (props) => {
       <View style={[styles.Line, {transform: [{rotate: '180deg'}]}]} />
       <View style={[styles.Line, {transform: [{rotate: '90deg'}]}]} />
       <View style={[styles.Line, {transform: [{rotate: '45deg'}]}]} />
-      <View style={[styles.Line, {transform: [{rotate: '125deg'}]}]} />
+      <View style={[styles.Line, {transform: [{rotate: '135deg'}]}]} />
     </View>
   );
 };
@@ -21,7 +21,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
-    position: 'relative',
   },
   CoreMine: {
     borderRadius: 50,
