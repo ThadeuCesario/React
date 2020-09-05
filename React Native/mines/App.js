@@ -1,6 +1,8 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 
+import Field from './src/components/Field';
+
 import params from './src/params';
 
 const App = (props) => {
@@ -10,6 +12,7 @@ const App = (props) => {
       <Text>
         Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}
       </Text>
+      <Field />
     </SafeAreaView>
   );
 };

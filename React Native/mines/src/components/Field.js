@@ -18,5 +18,13 @@ const styles = StyleSheet.create({
   field: {
     height: params.blockSize,
     width: params.blockSize,
+    borderWidth: params.borderSize,
+  },
+  regular: {
+    backgroundColor: '#999',
+    borderLeftColor: '#ccc',
+    borderTopColor: '#ccc',
+    borderRightColor: '#333',
+    borderBottomColor: '#333',
   },
 });
