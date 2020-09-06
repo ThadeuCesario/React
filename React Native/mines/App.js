@@ -9,6 +9,7 @@ import {
   wonGame,
   showMines,
   invertFlag,
+  flagsUsed,
 } from './src/functions';
 
 import params from './src/params';
