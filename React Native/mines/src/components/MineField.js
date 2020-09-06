@@ -8,14 +8,21 @@ export default (props) => {
     const columns = row.map((field, fieldIndex) => {
       return <Field {...field} key={fieldIndex} />;
     });
-    return <View key={rowIndex}>{columns}</View>;
+    return (
+      <View key={rowIndex} style={styles.Row}>
+        {columns}
+      </View>
+    );
   });
   return <View style={styles.Container}>{rows}</View>;
 };
 
 const styles = StyleSheet.create({
   Container: {
-    flexDirection: 'row',
+    // flexDirection: 'row',
     backgroundColor: '#eee',
+  },
+  Row: {
+    flexDirection: 'row',
   },
 });
