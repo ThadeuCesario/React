@@ -51,5 +51,5 @@ const styles = StyleSheet.create({
   board: {
     alignItems: 'center',
     backgroundColor: '#aaa',
-  }
+  },
 });
