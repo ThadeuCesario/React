@@ -9,13 +9,13 @@
 const createBoard = (rows, columns) => {
   return Array(rows)
     .fill(0)
-    .map((_row, indexRow) => {
+    .map((_, indexRow) => {
       return Array(columns)
         .fill(0)
-        .map((_collum, indexColumn) => {
+        .map((_, indexColumn) => {
           return {
             row: indexRow,
-            collumn: indexColumn,
+            column: indexColumn,
             mined: false,
             opened: false,
             exploded: false,
@@ -92,7 +92,7 @@ const safeNeighborhood = (board, row, column) => {
 const openField = (board, row, column) => {
   const field = board[row][column];
   if (!field.opened) {
-    field.opend = true;
+    field.opened = true;
     if (field.mined) {
       field.exploded = true;
     } else if (safeNeighborhood(board, row, column)) {
