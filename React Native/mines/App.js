@@ -37,19 +37,18 @@ export default class App extends Component {
   };
 
   onOpenField = (row, column) => {
-    const {board} = this.state;
-    const clonedBoard = cloneBoard(board);
-    openField(clonedBoard, row, column);
+    const board = cloneBoard(this.state.board);
+    openField(board, row, column);
     const lost = hadExplosion(board);
     const won = wonGame(board);
 
     if (lost) {
       showMines(board);
-      Alert.alert('Erroou!');
+      Alert.alert('Perdeeeeu!', 'Que buuuurro!');
     }
 
     if (won) {
-      Alert.alert('Parábens, você está vivo! :)');
+      Alert.alert('Parabéns', 'Você Venceu!');
     }
 
     this.setState({board, lost, won});
