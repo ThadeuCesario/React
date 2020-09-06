@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {SafeAreaView, View, StyleSheet, Text, Alert} from 'react-native';
 import MineField from './src/components/MineField';
+import Header from './src/components/Header';
 import {
   createMinedBoard,
   cloneBoard,
@@ -72,10 +73,10 @@ export default class App extends Component {
     const {board} = this.state;
     return (
       <SafeAreaView style={styles.Container}>
-        <Text style={styles.Welcome}>Iniciando o mines!</Text>
-        <Text>
-          Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}
-        </Text>
+        <Header
+          flagsLeft={this.minesAmount() - flagsUsed(this.state.board)}
+          onNewGame={() => this.setState(this.createState())}
+        />
         <View style={styles.board}>
           <MineField
             board={board}
