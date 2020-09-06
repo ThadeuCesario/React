@@ -11,6 +11,7 @@ export default (props) => {
           {...field}
           key={fieldIndex}
           onOpen={() => props.onOpenField(rowIndex, fieldIndex)}
+          onSelect={e => props.onSelectField(rowIndex, fieldIndex)}
         />
       );
     });
