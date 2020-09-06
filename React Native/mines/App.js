@@ -36,6 +36,25 @@ export default class App extends Component {
     };
   };
 
+  onOpenField = (row, column) => {
+    const {board} = this.state;
+    const clonedBoard = cloneBoard(board);
+    openField(clonedBoard, row, column);
+    const lost = hadExplosion(board);
+    const won = wonGame(board);
+
+    if (lost) {
+      showMines(board);
+      Alert.alert('Erroou!');
+    }
+
+    if (won) {
+      Alert.alert('Parábens, você está vivo! :)');
+    }
+
+    this.setState({board, lost, won});
+  };
+
   render() {
     const {board} = this.state;
     return (
@@ -45,7 +64,7 @@ export default class App extends Component {
           Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}
         </Text>
         <View style={styles.board}>
-          <MineField board={board} />
+          <MineField board={board} onOpenField={this.onOpenField} />
         </View>
       </SafeAreaView>
     );
