@@ -33,5 +33,38 @@ export default (props) => {
 };
 
 const styles = StyleSheet.create({
-  frame: {},
+  frame: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(0,0,0,0.6)',
+  },
+  container: {
+    backgroundColor: '#eee',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 15,
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+  },
+  button: {
+    marginTop: 10,
+    padding: 5,
+  },
+  bgEasy: {
+    backgroundColor: '#49b65d',
+  },
+  bgNormal: {
+    backgroundColor: '#2765f7',
+  },
+  bgHard: {
+    backgroundColor: '#f26337',
+  },
+  buttonLabel: {
+    fontSize: 20,
+    color: '#eee',
+    fontWeight: 'bold',
+  },
 });
