@@ -6,7 +6,13 @@ export default (props) => {
   const {board} = props;
   const rows = board.map((row, rowIndex) => {
     const columns = row.map((field, fieldIndex) => {
-      return <Field {...field} key={fieldIndex} />;
+      return (
+        <Field
+          {...field}
+          key={fieldIndex}
+          onOpen={() => props.onOpenField(rowIndex, fieldIndex)}
+        />
+      );
     });
     return (
       <View key={rowIndex} style={styles.Row}>
