@@ -58,3 +58,11 @@ Handle system back button on Android by using the BackHandler API from React Nat
 Veja que estou utilizando o método <code>navigate</code> de dentro do <code>navigation</code>.
 Passo como parâmetro também o componente que desejo redirecionar.
 </p>
+<hr />
+<h3>navigate VS push</h3>
+<p>
+  Temos dois tipos de métodos para tratar nosssa stack de navegação. <br/> Sendo o primeiro o navigate que irá,
+  analisar previamente toda a stack e navegar até o componente escolhido. 
+  <br />
+  O Segundo é o push, na qual sempre adicionará na stack uma novo componente. 
+</p>
