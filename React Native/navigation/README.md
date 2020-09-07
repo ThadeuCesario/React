@@ -27,7 +27,11 @@ export default props => {
 Veja que dentro no Navigator, temos as Screens. <br/>
 Dentro de cada Screen temos dois atributos que são bem importantes. O primeiro é o <code>name</code> e o segundo e o <code>component</code>, que é propriamente o componente que estamos referenciando.
 </p>
-
+<br></br>
+Outro ponto importante que precisamos destacar, é que podemos passar <code>options</code>, como atributo
+de nossas Screens, esses options são configurações adicionais que poderão ser úteis. <br />
+Por exemplo qual será o <code>title</code>, ou se será apresentado o header.
+<br></br>
 Depois de termos feitos os passos acima, precisamos utilizar o <code>NavigationContainer</code>, para nos ajudar no controle de nossa stack. 
 Basicamente o <code>NavigationContainer</code>, é responsável por gerenciar o estado do aplicativo e vincular o navegador do seu sistema com o ambiente do aplicativo. Além disso, o containercuida da integração da plataforma e fornece algumas funcionalidades úteis: 
 <br/><br/>
@@ -43,3 +47,4 @@ Handle system back button on Android by using the BackHandler API from React Nat
 </li>
 </ul>
 <em>font: https://reactnavigation.org/docs/navigation-container/</em>
+<br/><br/>
