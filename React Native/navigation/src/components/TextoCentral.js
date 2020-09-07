@@ -9,11 +9,11 @@ export default props => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: bgColor,
+            backgroundColor: bgColor || '#000',
         },
         Text: {
-            fontSize: 70,
-            color: textColor,
+            fontSize: 50,
+            color: textColor || '#fff',
         },
     });
 
