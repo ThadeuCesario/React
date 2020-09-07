@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, Button, Dimensions} from 'react-native';
 const windowWidth = Dimensions.get('window').width;
 
 export default props => {
-    const {children, avancar, navigation, voltar} = props;
+    const {children, avancar, navigation, voltar, avancarParam} = props;
 
     const styles = StyleSheet.create({
         Container: {
@@ -33,7 +33,9 @@ export default props => {
                 }
                 {
                     avancar ? <Button style={styles.ButtonAction} title={'Avançar'} onPress={() => {
-                        navigation.navigate(avancar)
+                        navigation.navigate(avancar, {
+                            numero: parseInt(Math.random() * 100)
+                        })
                     }}/> : false
                 }
                 {
