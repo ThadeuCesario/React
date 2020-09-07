@@ -1,0 +1,608 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1e1dc366ccd7ba0436bb838967af0058/flipper-network-plugin-0.33.1/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/3cc5c1491fbddde4cb59debbefda8128/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:8:1-15:12
+MERGED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:expo-splash-screen] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/f2b021b0e4557de5afa66384697d66c6/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/0485dddc772464754076a26555ff89f1/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/42c5536d2b2772fab9802892e91c1aa9/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c0d678ee734f95fe400b6f2876a83d92/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/7add7aaefc59211839ee855b17118938/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c4fa9f1bb705d2f5a6951527e68c9fc8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/64c02b96bc6a4ad26302028c5d37f4bd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:expo-constants] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-font] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-image-loader] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-permissions] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-sqlite] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-app-loader] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6ef1f9e814dff9642bc5adeb6ec4bea0/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1e7d3b65211c797d81ef7e1c4864b652/flipper-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d30ad386fda3035abf65c9e70074abf/stetho-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16755aa9303422fc56b5a550b1065244/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/ae67b946803add32a9e5e57b66ae9bb9/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c4464350100dd16a8e1097de83a79ecf/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/fd363d6be55a440299bdcc0e4cf688af/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/971df86959a07d39783aa89d0870ee10/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/13f0b193830df51eb6c9614d66ce8994/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8de67f4d42d3e29ef260ef970602f022/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/69ecb0b92c781f10505afe4d04a92c06/soloader-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/36bd89af8a338d1fe5e720cf883f81c2/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/274009d1e8982746f0ffb4732197b71a/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/14fa859edb12226b50fc98552655ee0d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6c68669c87b31cfe5ecbbffa628aeeac/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/286e954f12318e72adb94985d6053b24/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6b0a705da63423bf9ab668d3ba3f0ecc/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4a8acb7f50f650ce15e0030de4068eb9/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8f94cf8309b762ddd5f4cdea701a1e7a/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/13191276611a1c28d2ec1c94113a1e25/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/44172e5e04deb4a5257a4ae618a33be6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/15d528e8405136289611fbafa378de3b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/17748eb9846894ac21301c0488223b41/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/dc26e75be0078b74a900d475bd244666/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/5c5e3dfccc9f7ae7957afe8253ae1c11/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b0f383c8a6242fb9abac6c03e55783c2/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/17dd2729492c3d4b787611b40db0eda0/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/ecce8f5aa05b01f043d6252674676c68/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c7366f0f23b26ad2e3715b5304080617/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/08182fe05215da385d67d09eacfd973e/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6ddb08c99f1830d8974e0408b1940c5e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/05a77e1f2e4f1fe29a61d9b61c79bbc4/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b9b879592f9a03bd489902362b2eb615/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/5f29fbfe74ff1be7989f63c7115220f3/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4b9b284686ae553a79fd71813937e078/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16172d9de5c29fba201e75637dcfdc0c/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c8441c96940afc50cbff96744619e9ff/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8d412f8755f9a44789c176ddc344643a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a4e3de794de5295a2b776116452c2b8a/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a03dc63a55af3ca8ec04b17fbf4d7e5c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d92cbe5615f6b387bdf4be99803a43a3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a318ce381eb16e70a6e8bd87ec28839a/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/806249b99db2ccefc4d9d420ca6e303e/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c26dddb3cdb7f16cc3de72f22d666849/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/7bd31d672cf5900429da1329d7ac578d/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/03acfcee22e1931d7945c77e2c556ab7/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c5a7a0f8720f184adc02b71eeb668b9b/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4a342aac8c8cf5ddcdc132f2dab3981c/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:70-94
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:70-94
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:2:3-64
+MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:15:5-67
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:2:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:3:3-75
+MERGED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:3:3-75
+MERGED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:3:3-75
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:3:20-73
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:5:3-72
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:5:20-70
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:6:3-77
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:6:20-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:7:3-72
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:7:20-70
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:8:3-71
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:8:20-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:9:3-63
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:9:20-61
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:10:3-77
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:10:20-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:12:3-78
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:12:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:13:3-76
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:13:20-74
+uses-permission#android.permission.CAMERA
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:14:3-62
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:14:20-60
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:15:3-69
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:15:20-67
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:16:3-69
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:16:20-67
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:17:3-70
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:17:20-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:18:3-77
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:18:20-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:19:3-68
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:19:20-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:20:3-78
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:20:20-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:21:3-70
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:21:20-68
+application
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:23:3-47:17
+MERGED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:23:3-47:17
+MERGED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:23:3-47:17
+MERGED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/f2b021b0e4557de5afa66384697d66c6/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/f2b021b0e4557de5afa66384697d66c6/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/0485dddc772464754076a26555ff89f1/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/0485dddc772464754076a26555ff89f1/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/42c5536d2b2772fab9802892e91c1aa9/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/42c5536d2b2772fab9802892e91c1aa9/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c0d678ee734f95fe400b6f2876a83d92/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c0d678ee734f95fe400b6f2876a83d92/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/69ecb0b92c781f10505afe4d04a92c06/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/69ecb0b92c781f10505afe4d04a92c06/soloader-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/36bd89af8a338d1fe5e720cf883f81c2/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/36bd89af8a338d1fe5e720cf883f81c2/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/05a77e1f2e4f1fe29a61d9b61c79bbc4/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/05a77e1f2e4f1fe29a61d9b61c79bbc4/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4b9b284686ae553a79fd71813937e078/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4b9b284686ae553a79fd71813937e078/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:18:5-28:19
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c5a7a0f8720f184adc02b71eeb668b9b/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c5a7a0f8720f184adc02b71eeb668b9b/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:25:5-37
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:25:5-37
+	tools:ignore
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:6:75-114
+	android:roundIcon
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:27:5-50
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:27:5-50
+	tools:targetApi
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:6:54-74
+	android:icon
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:26:5-39
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:26:5-39
+	android:allowBackup
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:28:5-32
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:28:5-32
+	android:theme
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:29:5-36
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:29:5-36
+	android:usesCleartextTraffic
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:6:18-53
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:24:5-36
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:24:5-36
+meta-data#expo.modules.updates.EXPO_UPDATE_URL
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:31:5-103
+	android:value
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:31:68-101
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:31:16-67
+meta-data#expo.modules.updates.EXPO_SDK_VERSION
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:32:5-112
+	android:value
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:32:69-110
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:32:16-68
+activity#com.navigation.MainActivity
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:33:5-45:16
+	android:label
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:35:7-39
+	android:launchMode
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:37:7-38
+	android:windowSoftInputMode
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:38:7-49
+	android:configChanges
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:36:7-84
+	android:theme
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:39:7-52
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:34:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:41:7-44:23
+action#android.intent.action.MAIN
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:42:9-60
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:42:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:43:9-68
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:43:19-66
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:46:5-81
+	android:name
+		ADDED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:46:15-79
+uses-sdk
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1e1dc366ccd7ba0436bb838967af0058/flipper-network-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1e1dc366ccd7ba0436bb838967af0058/flipper-network-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/3cc5c1491fbddde4cb59debbefda8128/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/3cc5c1491fbddde4cb59debbefda8128/flipper-fresco-plugin-0.33.1/AndroidManifest.xml:11:5-13:41
+MERGED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-splash-screen] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/f2b021b0e4557de5afa66384697d66c6/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/f2b021b0e4557de5afa66384697d66c6/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/0485dddc772464754076a26555ff89f1/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/0485dddc772464754076a26555ff89f1/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/42c5536d2b2772fab9802892e91c1aa9/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/42c5536d2b2772fab9802892e91c1aa9/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c0d678ee734f95fe400b6f2876a83d92/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c0d678ee734f95fe400b6f2876a83d92/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/7add7aaefc59211839ee855b17118938/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/7add7aaefc59211839ee855b17118938/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c4fa9f1bb705d2f5a6951527e68c9fc8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c4fa9f1bb705d2f5a6951527e68c9fc8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/64c02b96bc6a4ad26302028c5d37f4bd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/64c02b96bc6a4ad26302028c5d37f4bd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:expo-constants] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-error-recovery/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-image-loader] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-app-loader] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6ef1f9e814dff9642bc5adeb6ec4bea0/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6ef1f9e814dff9642bc5adeb6ec4bea0/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1e7d3b65211c797d81ef7e1c4864b652/flipper-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1e7d3b65211c797d81ef7e1c4864b652/flipper-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d30ad386fda3035abf65c9e70074abf/stetho-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d30ad386fda3035abf65c9e70074abf/stetho-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16755aa9303422fc56b5a550b1065244/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16755aa9303422fc56b5a550b1065244/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/ae67b946803add32a9e5e57b66ae9bb9/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/ae67b946803add32a9e5e57b66ae9bb9/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c4464350100dd16a8e1097de83a79ecf/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c4464350100dd16a8e1097de83a79ecf/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/fd363d6be55a440299bdcc0e4cf688af/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/fd363d6be55a440299bdcc0e4cf688af/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/971df86959a07d39783aa89d0870ee10/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/971df86959a07d39783aa89d0870ee10/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/13f0b193830df51eb6c9614d66ce8994/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/13f0b193830df51eb6c9614d66ce8994/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8de67f4d42d3e29ef260ef970602f022/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8de67f4d42d3e29ef260ef970602f022/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/69ecb0b92c781f10505afe4d04a92c06/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/69ecb0b92c781f10505afe4d04a92c06/soloader-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b1ba5de5eb8ae823640eb22cd3555da9/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/dc97ee678f1a2dd4c1f7c1b1dc5d5318/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/36bd89af8a338d1fe5e720cf883f81c2/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/36bd89af8a338d1fe5e720cf883f81c2/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/274009d1e8982746f0ffb4732197b71a/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/274009d1e8982746f0ffb4732197b71a/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/14fa859edb12226b50fc98552655ee0d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/14fa859edb12226b50fc98552655ee0d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6c68669c87b31cfe5ecbbffa628aeeac/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6c68669c87b31cfe5ecbbffa628aeeac/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/286e954f12318e72adb94985d6053b24/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/286e954f12318e72adb94985d6053b24/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6b0a705da63423bf9ab668d3ba3f0ecc/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6b0a705da63423bf9ab668d3ba3f0ecc/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4a8acb7f50f650ce15e0030de4068eb9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4a8acb7f50f650ce15e0030de4068eb9/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8f94cf8309b762ddd5f4cdea701a1e7a/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8f94cf8309b762ddd5f4cdea701a1e7a/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/13191276611a1c28d2ec1c94113a1e25/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/13191276611a1c28d2ec1c94113a1e25/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/44172e5e04deb4a5257a4ae618a33be6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/44172e5e04deb4a5257a4ae618a33be6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/15d528e8405136289611fbafa378de3b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/15d528e8405136289611fbafa378de3b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/17748eb9846894ac21301c0488223b41/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/17748eb9846894ac21301c0488223b41/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/dc26e75be0078b74a900d475bd244666/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/dc26e75be0078b74a900d475bd244666/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/5c5e3dfccc9f7ae7957afe8253ae1c11/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/5c5e3dfccc9f7ae7957afe8253ae1c11/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b0f383c8a6242fb9abac6c03e55783c2/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b0f383c8a6242fb9abac6c03e55783c2/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/17dd2729492c3d4b787611b40db0eda0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/17dd2729492c3d4b787611b40db0eda0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/ecce8f5aa05b01f043d6252674676c68/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/ecce8f5aa05b01f043d6252674676c68/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c7366f0f23b26ad2e3715b5304080617/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c7366f0f23b26ad2e3715b5304080617/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/08182fe05215da385d67d09eacfd973e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/08182fe05215da385d67d09eacfd973e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6ddb08c99f1830d8974e0408b1940c5e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/6ddb08c99f1830d8974e0408b1940c5e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/05a77e1f2e4f1fe29a61d9b61c79bbc4/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/05a77e1f2e4f1fe29a61d9b61c79bbc4/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b9b879592f9a03bd489902362b2eb615/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/b9b879592f9a03bd489902362b2eb615/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/5f29fbfe74ff1be7989f63c7115220f3/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/5f29fbfe74ff1be7989f63c7115220f3/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4b9b284686ae553a79fd71813937e078/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4b9b284686ae553a79fd71813937e078/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16172d9de5c29fba201e75637dcfdc0c/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16172d9de5c29fba201e75637dcfdc0c/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c8441c96940afc50cbff96744619e9ff/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c8441c96940afc50cbff96744619e9ff/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8d412f8755f9a44789c176ddc344643a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/8d412f8755f9a44789c176ddc344643a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a4e3de794de5295a2b776116452c2b8a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a4e3de794de5295a2b776116452c2b8a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a03dc63a55af3ca8ec04b17fbf4d7e5c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a03dc63a55af3ca8ec04b17fbf4d7e5c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d92cbe5615f6b387bdf4be99803a43a3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d92cbe5615f6b387bdf4be99803a43a3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a318ce381eb16e70a6e8bd87ec28839a/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/a318ce381eb16e70a6e8bd87ec28839a/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/806249b99db2ccefc4d9d420ca6e303e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/806249b99db2ccefc4d9d420ca6e303e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c26dddb3cdb7f16cc3de72f22d666849/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c26dddb3cdb7f16cc3de72f22d666849/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/7bd31d672cf5900429da1329d7ac578d/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/7bd31d672cf5900429da1329d7ac578d/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/03acfcee22e1931d7945c77e2c556ab7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/03acfcee22e1931d7945c77e2c556ab7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c5a7a0f8720f184adc02b71eeb668b9b/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/c5a7a0f8720f184adc02b71eeb668b9b/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4a342aac8c8cf5ddcdc132f2dab3981c/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/4a342aac8c8cf5ddcdc132f2dab3981c/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
+	android:value
+		ADDED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+	android:name
+		ADDED from [:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:26:13-120

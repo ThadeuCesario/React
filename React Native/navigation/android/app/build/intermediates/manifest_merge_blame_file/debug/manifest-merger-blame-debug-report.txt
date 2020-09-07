@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.navigation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:3:3-75
+11-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
+12-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+13-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:5:3-72
+13-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:5:20-70
+14    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+14-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:6:3-77
+14-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:6:20-75
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:7:3-72
+15-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:7:20-70
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+16-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:8:3-71
+16-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:8:20-69
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:9:3-63
+17-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:9:20-61
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+18-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:10:3-77
+18-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:10:20-75
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:12:3-78
+19-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:12:20-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:13:3-76
+20-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:13:20-74
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:14:3-62
+21-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:14:20-60
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:15:3-69
+22-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:15:20-67
+23    <uses-permission android:name="android.permission.READ_CALENDAR" />
+23-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:16:3-69
+23-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:16:20-67
+24    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+24-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:17:3-70
+24-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:17:20-68
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:18:3-77
+25-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:18:20-75
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:19:3-68
+26-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:19:20-66
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:20:3-78
+27-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:20:20-76
+28    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+28-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:21:3-70
+28-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:21:20-68
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+29-->[com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+29-->[com.facebook.flipper:flipper:0.33.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/16d89248cc84d5e87450177bc9d9f7bf/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+30-->[:expo-updates] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+31    <uses-permission android:name="android.permission.STORAGE" />
+31-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+31-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->[:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+32-->[:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+33    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+33-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+33-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+34    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+34-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+34-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+35
+36    <application
+36-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:23:3-47:17
+37        android:name="com.navigation.MainApplication"
+37-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:24:5-36
+38        android:allowBackup="false"
+38-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:28:5-32
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/71bf4efc4a31a947ad653616e8e5bcce/core-1.1.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:26:5-39
+42        android:label="@string/app_name"
+42-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:25:5-37
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:27:5-50
+44        android:theme="@style/AppTheme"
+44-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:29:5-36
+45        android:usesCleartextTraffic="true" >
+45-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/debug/AndroidManifest.xml:6:18-53
+46        <meta-data
+46-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:31:5-103
+47            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+47-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:31:16-67
+48            android:value="YOUR-APP-URL-HERE" />
+48-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:31:68-101
+49        <meta-data
+49-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:32:5-112
+50            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+50-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:32:16-68
+51            android:value="YOUR-APP-SDK-VERSION-HERE" />
+51-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:32:69-110
+52
+53        <activity
+53-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:33:5-45:16
+54            android:name="com.navigation.MainActivity"
+54-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:34:7-35
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+55-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:36:7-84
+56            android:label="@string/app_name"
+56-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:35:7-39
+57            android:launchMode="singleTask"
+57-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:37:7-38
+58            android:theme="@style/Theme.App.SplashScreen"
+58-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:39:7-52
+59            android:windowSoftInputMode="adjustResize" >
+59-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:38:7-49
+60            <intent-filter>
+60-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:41:7-44:23
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:42:9-60
+61-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:42:17-58
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:43:9-68
+63-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:43:19-66
+64            </intent-filter>
+65        </activity>
+66        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+66-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:46:5-81
+66-->/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/src/main/AndroidManifest.xml:46:15-79
+67
+68        <meta-data
+68-->[:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
+69            android:name="org.unimodules.core.AppLoader#react-native-headless"
+69-->[:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+70            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+70-->[:unimodules-react-native-adapter] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+71
+72        <provider
+72-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+73            android:name="expo.modules.filesystem.FileSystemFileProvider"
+73-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+74            android:authorities="com.navigation.FileSystemFileProvider"
+74-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+75            android:exported="false"
+75-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+76            android:grantUriPermissions="true" >
+76-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+77            <meta-data
+77-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+79                android:resource="@xml/file_system_provider_paths" />
+79-->[:expo-file-system] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+80        </provider>
+81
+82        <service
+82-->[:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+83            android:name="expo.modules.location.services.LocationTaskService"
+83-->[:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+84            android:exported="false" />
+84-->[:expo-location] /Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/eb332abb814160f6f4947b499ef2695e/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:16.0.1] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/1d7878d2855cdb0fd41f86e5653cb8c8/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+94
+95        <service
+95-->[androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.room.MultiInstanceInvalidationService"
+96-->[androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+97            android:exported="false" />
+97-->[androidx.room:room-runtime:2.1.0] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/d1dd4bffbd2ae299fbe9492b8fb3f644/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+98        <service
+98-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+99            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+99-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+100            android:exported="false" />
+100-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+101        <service
+101-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+102            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+102-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+103            android:exported="false" />
+103-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+104        <service
+104-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+105            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+105-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+106            android:exported="false" />
+106-->[io.nlopez.smartlocation:library:3.2.11] /Users/thadeucesario/.gradle/caches/transforms-2/files-2.1/abc70f535bb46ca8450becede10e65a6/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+107    </application>
+108
+109</manifest>
