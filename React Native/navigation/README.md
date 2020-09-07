@@ -65,4 +65,6 @@ Passo como parâmetro também o componente que desejo redirecionar.
   analisar previamente toda a stack e navegar até o componente escolhido. 
   <br />
   O Segundo é o push, na qual sempre adicionará na stack uma novo componente. 
+  <br/>
+  A utilidade do push, é caso exista a necessidade de passar propriedades diferentes para os componentes. 
 </p>
