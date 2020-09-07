@@ -48,3 +48,13 @@ Handle system back button on Android by using the BackHandler API from React Nat
 </ul>
 <em>font: https://reactnavigation.org/docs/navigation-container/</em>
 <br/><br/>
+<hr />
+<h3>Navegação simples</h3>
+<p>
+  Um método simples para ir de uma página para outra, basta realizar o seguinte código:
+</p>
+<code>props.navigation.navigate('TelaB')</code>
+<p>
+Veja que estou utilizando o método <code>navigate</code> de dentro do <code>navigation</code>.
+Passo como parâmetro também o componente que desejo redirecionar.
+</p>
