@@ -10,8 +10,8 @@ export default props => {
         <SafeAreaView style={styles.Container}>
             <NavigationContainer>
                 {/* <Stack /> */}
-                {/* <Tab /> */}
-                <Drawer />
+                <Tab />
+                {/* <Drawer /> */}
             </NavigationContainer>
         </SafeAreaView>
     );

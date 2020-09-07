@@ -1,5 +1,6 @@
-#Sun Sep 06 21:29:57 BRT 2020
+#Mon Sep 07 17:14:05 BRT 2020
 base.10=/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_15.dex
+path.33=classes_30.dex
 path.32=classes_29.dex
 path.31=classes_28.dex
 path.30=classes_9.dex
@@ -31,6 +32,7 @@ path.5=classes_10.dex
 path.4=classes_1.dex
 path.3=classes_0.dex
 path.2=classes2.dex
+renamed.33=classes34.dex
 path.1=classes.dex
 renamed.32=classes33.dex
 path.0=classes.dex
@@ -76,6 +78,7 @@ renamed.13=classes14.dex
 renamed.12=classes13.dex
 renamed.11=classes12.dex
 renamed.10=classes11.dex
+base.33=/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_30.dex
 base.32=/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_29.dex
 base.31=/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_28.dex
 base.30=/Users/thadeucesario/Estudos/ReactEstudos/React Native/navigation/android/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_9.dex
