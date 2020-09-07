@@ -36,6 +36,13 @@ export default props => {
                         navigation.navigate(avancar)
                     }}/> : false
                 }
+                {
+                /*
+                    avancar ? <Button style={styles.ButtonAction} title={'Avançar'} onPress={() => {
+                        navigation.push(avancar)
+                    }}/> : false
+                */    
+                }
             </View>
             <View style={styles.BottomView}>
                 {children}
