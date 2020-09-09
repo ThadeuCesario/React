@@ -16,5 +16,9 @@ export default (props) => {
 const styles = StyleSheet.create({
   Container: {
     flexDirection: 'row',
+    borderColor: '#AAA',
+    borderBottomWidth: 1,
+    alignItems: 'center', //cross axis
+    paddingVertical: 10,
   },
 });
