@@ -59,4 +59,8 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     marginBottom: 20,
   },
+  Subtitle: {
+    fontFamily: commonStyles.fontFamily,
+    color: commonStyles.colors.secondary,
+  },
 });
