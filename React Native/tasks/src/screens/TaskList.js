@@ -19,7 +19,9 @@ export default class TaskList extends Component {
           </View>
         </ImageBackground>
         <View style={styles.TaskList}>
-          <Text>TaskList</Text>
+          <Text>Tarefa #01</Text>
+          <Text>Tarefa #02</Text>
+          <Text>Tarefa #03</Text>
         </View>
       </View>
     );
