@@ -9,7 +9,7 @@ export default class TaskList extends Component {
       <View style={styles.Container}>
         <ImageBackground source={todayImage} style={styles.BackgroundImage} />
         <View style={styles.TaskList}>
-          <Text>TaskList</Text>
+          <Text>Teste</Text>
         </View>
       </View>
     );
