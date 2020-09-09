@@ -5,7 +5,7 @@ export default (props) => {
   const {desc, estimateAt, doneAt} = props;
 
   return (
-    <View>
+    <View style={styles.Container}>
       <Text>{desc}</Text>
       <Text>{estimateAt + ""}</Text>
       <Text>{doneAt + ""}</Text>
