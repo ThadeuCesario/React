@@ -56,5 +56,7 @@ const styles = StyleSheet.create({
     fontFamily: commonStyles.fontFamily,
     color: commonStyles.colors.secondary,
     fontSize: 50,
+    marginLeft: 20,
+    marginBottom: 20,
   },
 });
