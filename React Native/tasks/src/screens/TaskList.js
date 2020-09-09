@@ -21,9 +21,11 @@ export default class TaskList extends Component {
           </View>
         </ImageBackground>
         <View style={styles.TaskList}>
-          <Text>Tarefa #01</Text>
-          <Text>Tarefa #02</Text>
-          <Text>Tarefa #03</Text>
+          <Task
+            desc="Finalizar curso"
+            estimateAt={new Date()}
+            doneAt={new Date()}
+          />
         </View>
       </View>
     );
