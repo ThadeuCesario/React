@@ -14,5 +14,7 @@ export default (props) => {
 };
 
 const styles = StyleSheet.create({
-  Container: {},
+  Container: {
+     flexDirection: 'row',
+  },
 });
