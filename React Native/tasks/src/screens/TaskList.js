@@ -62,5 +62,8 @@ const styles = StyleSheet.create({
   Subtitle: {
     fontFamily: commonStyles.fontFamily,
     color: commonStyles.colors.secondary,
+    fontSize: 20,
+    marginLeft: 20,
+    marginBottom: 20,
   },
 });
