@@ -64,6 +64,6 @@ const styles = StyleSheet.create({
     color: commonStyles.colors.secondary,
     fontSize: 20,
     marginLeft: 20,
-    marginBottom: 20,
+    marginBottom: 30,
   },
 });
