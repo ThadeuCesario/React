@@ -5,6 +5,8 @@ import commonStyles from '../commonStyles';
 import moment from 'moment';
 import 'moment/locale/pt-br';
 
+import Task from '../components/Task';
+
 import todayImage from '../../assets/imgs/today.jpg';
 
 export default class TaskList extends Component {
