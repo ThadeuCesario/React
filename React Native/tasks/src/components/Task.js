@@ -7,8 +7,8 @@ export default (props) => {
   return (
     <View style={styles.Container}>
       <Text>{desc}</Text>
-      <Text>{estimateAt + ""}</Text>
-      <Text>{doneAt + ""}</Text>
+      <Text>{estimateAt + ''}</Text>
+      <Text>{doneAt + ''}</Text>
     </View>
   );
 };
