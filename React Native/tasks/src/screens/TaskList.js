@@ -15,7 +15,7 @@ export default class TaskList extends Component {
         <ImageBackground source={todayImage} style={styles.BackgroundImage}>
           <View style={styles.TitleBar}>
             <Text style={styles.Title}>Hoje</Text>
-            <Text>{today}</Text>
+            <Text style={styles.Subtitle}>{today}</Text>
           </View>
         </ImageBackground>
         <View style={styles.TaskList}>
