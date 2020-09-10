@@ -1,5 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import {View, Image, StyleSheet, FlatList, Text} from 'react-native';
+import {
+  View,
+  Image,
+  StyleSheet,
+  FlatList,
+  Text,
+  ActivityIndicator,
+} from 'react-native';
 // import PropTypes from 'prop-types';
 // import Text from '@bem/components/text';
 // import Container from '@bem/components/container';
@@ -35,16 +42,31 @@ const InfiniteList = (props) => {
   }, []);
 
   const loadContent = async () => {
-    if (loading) return;
+    if (loading) {
+      return;
+    }
 
     setLoading(true);
-    const response = await fetch(`${baseURL}/search/repositories?q=${searchTerm}&per_page=${perPage}&page=${page}`);
+    const response = await fetch(
+      `${baseURL}/search/repositories?q=${searchTerm}&per_page=${perPage}&page=${page}`,
+    );
     const repositories = await response.json();
 
     setData([...data, ...repositories.items]);
     setPage(page + 1);
     setLoading(false);
-  }
+  };
+
+  const renderFooter = () => {
+    if (!loading) {
+      return null;
+    }
+    return (
+      <View style={styles.loading}>
+        <ActivityIndicator />
+      </View>
+    );
+  };
 
   const renderItem = ({item}) => (
     <View style={styles.listItem}>
@@ -61,6 +83,7 @@ const InfiniteList = (props) => {
       keyExtractor={(item) => item.id}
       onEndReached={loadContent}
       onEndReachedThreshold={0.1}
+      ListFooterComponent={renderFooter}
     />
   );
 };
