@@ -38,9 +38,10 @@ const InfiniteList = (props) => {
     if (loading) return;
 
     setLoading(true);
-    const response = await fetch(`${baseURL}/search/repositories?q=${searchTerm}&per_page=${perPage}&page=${page}`).then(response => response.json());
+    const response = await fetch(`${baseURL}/search/repositories?q=${searchTerm}&per_page=${perPage}&page=${page}`);
+    const repositories = await response.json();
 
-    setData(...data, response.items);
+    setData([...data, ...repositories.items]);
     setPage(page + 1);
     setLoading(false);
   }
@@ -58,6 +59,8 @@ const InfiniteList = (props) => {
       data={data}
       renderItem={renderItem}
       keyExtractor={(item) => item.id}
+      onEndReached={loadContent}
+      onEndReachedThreshold={0.1}
     />
   );
 };
