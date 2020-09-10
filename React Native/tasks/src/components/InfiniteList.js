@@ -19,6 +19,10 @@ const styles = StyleSheet.create({
   },
 });
 
+const baseURL = 'https://api.github.com';
+const searchTerm = 'react';
+const perPage = 20;
+
 const InfiniteList = (props) => {
   const {imagePath, title, subtitle} = props;
 
@@ -27,20 +31,19 @@ const InfiniteList = (props) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setData([
-      {id: 0, full_name: 'Repo 1'},
-      {id: 1, full_name: 'Repo 2'},
-      {id: 2, full_name: 'Repo 3'},
-      {id: 3, full_name: 'Repo 4'},
-      {id: 4, full_name: 'Repo 5'},
-      {id: 5, full_name: 'Repo 6'},
-      {id: 6, full_name: 'Repo 7'},
-      {id: 7, full_name: 'Repo 8'},
-      {id: 8, full_name: 'Repo 9'},
-      {id: 9, full_name: 'Repo 10'},
-      {id: 10, full_name: 'Repo 11'},
-    ]);
+    loadContent();
   }, []);
+
+  const loadContent = async () => {
+    if (loading) return;
+
+    setLoading(true);
+    const response = await fetch(`${baseURL}/search/repositories?q=${searchTerm}&per_page=${perPage}&page=${page}`).then(response => response.json());
+
+    setData(...data, response.items);
+    setPage(page + 1);
+    setLoading(false);
+  }
 
   const renderItem = ({item}) => (
     <View style={styles.listItem}>
