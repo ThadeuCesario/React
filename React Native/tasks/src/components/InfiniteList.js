@@ -23,6 +23,8 @@ const InfiniteList = (props) => {
   const {imagePath, title, subtitle} = props;
 
   const [data, setData] = useState([]);
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setData([
