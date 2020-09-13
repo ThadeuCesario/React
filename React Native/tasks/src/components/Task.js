@@ -7,25 +7,33 @@ const getCheckView = (doneAt) => {
   if (doneAt !== null) {
     return (
       <View style={styles.Done}>
-        <Icon name={'check'} size={20} color={'#fff'}></Icon>
+        <Icon name={'check'} size={20} color={'#fff'} />
       </View>
     );
   } else {
-    return (
-      <View style={styles.Pending}>
-      </View>
-    );
+    return <View style={styles.Pending} />;
   }
 };
 
 export default (props) => {
   const {desc, estimateAt, doneAt} = props;
 
+  /**
+   * A lógica é bem simples, caso a tarefa esteja concluída (portanto o doneAt é diferente de nulo),
+   * será aplicado um outro estilo que é o textDecorationLine.
+   */
+  const doneOrNotStyle =
+    doneAt !== null
+      ? {
+          textDecorationLine: 'line-through',
+        }
+      : {};
+
   return (
     <View style={styles.Container}>
       <View style={styles.CheckContainer}>{getCheckView(doneAt)}</View>
       <View>
-        <Text>{desc}</Text>
+        <Text style={[styles.Description, doneOrNotStyle]}>{desc}</Text>
         <Text>{estimateAt + ''}</Text>
       </View>
     </View>
@@ -59,5 +67,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#4d7031',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  Description: {
+    fontFamily: commonStyles.fontFamily,
+    color: commonStyles.colors.mainText,
+    fontSize: 15,
   },
 });
