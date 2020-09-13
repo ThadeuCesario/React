@@ -7,13 +7,11 @@ const getCheckView = (doneAt) => {
   if (doneAt !== null) {
     return (
       <View>
-        <Text>Concluída</Text>
       </View>
     );
   } else {
     return (
-      <View>
-        <Text>Pendente</Text>
+      <View style={styles.Pending}>
       </View>
     );
   }
@@ -43,5 +41,14 @@ const styles = StyleSheet.create({
   },
   CheckContainer: {
     width: '20%',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  Pending: {
+    height: 25,
+    width: 25,
+    borderRadius: 13, //Basta ser a metade.
+    borderWidth: 1,
+    borderColor: '#555',
   },
 });
