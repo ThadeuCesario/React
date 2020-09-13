@@ -2,6 +2,8 @@ import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import commonStyles from '../commonStyles';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import moment from 'moment';
+import 'moment/locale/pt-br';
 
 const getCheckView = (doneAt) => {
   if (doneAt !== null) {
@@ -19,7 +21,7 @@ export default (props) => {
   const {desc, estimateAt, doneAt} = props;
 
   /**
-   * A lógica é bem simples, caso a tarefa esteja concluída (portanto o doneAt é diferente de nulo),
+   * A lógica é bem simples do doneOrNotStyle, caso a tarefa esteja concluída (portanto o doneAt é diferente de nulo),
    * será aplicado um outro estilo que é o textDecorationLine.
    */
   const doneOrNotStyle =
@@ -29,12 +31,15 @@ export default (props) => {
         }
       : {};
 
+  const date = doneAt ? doneAt : estimateAt;
+  const formattedDate = moment(date).locale('pt-br').format('ddd, D [de] MMMM');
+
   return (
     <View style={styles.Container}>
       <View style={styles.CheckContainer}>{getCheckView(doneAt)}</View>
       <View>
         <Text style={[styles.Description, doneOrNotStyle]}>{desc}</Text>
-        <Text>{estimateAt + ''}</Text>
+        <Text style={styles.Date}>{formattedDate}</Text>
       </View>
     </View>
   );
@@ -72,5 +77,10 @@ const styles = StyleSheet.create({
     fontFamily: commonStyles.fontFamily,
     color: commonStyles.colors.mainText,
     fontSize: 15,
+  },
+  Date: {
+    fontFamily: commonStyles.fontFamily,
+    color: commonStyles.colors.subText,
+    fontSize: 12,
   },
 });
