@@ -3,12 +3,20 @@ import {View, Text, StyleSheet} from 'react-native';
 import commonStyles from '../commonStyles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const getCheckView = (_) => {
-  return (
-    <View>
-      <Text>opa</Text>
-    </View>
-  );
+const getCheckView = (doneAt) => {
+  if (doneAt !== null) {
+    return (
+      <View>
+        <Text>Concluída</Text>
+      </View>
+    );
+  } else {
+    return (
+      <View>
+        <Text>Pendente</Text>
+      </View>
+    );
+  }
 };
 
 export default (props) => {
@@ -16,7 +24,7 @@ export default (props) => {
 
   return (
     <View style={styles.Container}>
-      <View style={styles.CheckContainer}>{getCheckView()}</View>
+      <View style={styles.CheckContainer}>{getCheckView(doneAt)}</View>
       <View>
         <Text>{desc}</Text>
         <Text>{estimateAt + ''}</Text>
