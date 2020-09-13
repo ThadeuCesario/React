@@ -6,7 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const getCheckView = (doneAt) => {
   if (doneAt !== null) {
     return (
-      <View>
+      <View style={styles.Done}>
+        <Icon name={'check'} size={20} color={'#fff'}></Icon>
       </View>
     );
   } else {
@@ -50,5 +51,13 @@ const styles = StyleSheet.create({
     borderRadius: 13, //Basta ser a metade.
     borderWidth: 1,
     borderColor: '#555',
+  },
+  Done: {
+    height: 25,
+    width: 25,
+    borderRadius: 13, //Basta ser a metade.
+    backgroundColor: '#4d7031',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
