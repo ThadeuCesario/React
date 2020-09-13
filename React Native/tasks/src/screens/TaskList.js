@@ -6,7 +6,6 @@ import moment from 'moment';
 import 'moment/locale/pt-br';
 
 import Task from '../components/Task';
-import InfiniteList from '../components/InfiniteList';
 
 import todayImage from '../../assets/imgs/today.jpg';
 
@@ -28,6 +27,16 @@ export default class TaskList extends Component {
     ],
   };
 
+  toggleTask = (taskId) => {
+    const tasks = [...this.state.tasks];
+    tasks.forEach((task) => {
+      if (task.id === taskId) {
+        task.doneAt = task.doneAt ? null : new Date();
+      }
+    });
+    this.setState({tasks});
+  };
+
   render() {
     const today = moment().locale('pt-br').format('ddd, D [de] MMMM');
     return (
@@ -42,7 +51,9 @@ export default class TaskList extends Component {
           <FlatList
             data={this.state.tasks}
             keyExtractor={(item) => `${item.id}`}
-            renderItem={({item}) => <Task {...item} />}
+            renderItem={({item}) => (
+              <Task {...item} toggleTask={this.toggleTask} />
+            )}
           />
         </View>
       </View>
