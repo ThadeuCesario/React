@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, TouchableWithoutFeedback} from 'react-native';
 import commonStyles from '../commonStyles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import moment from 'moment';
@@ -18,7 +18,7 @@ const getCheckView = (doneAt) => {
 };
 
 export default (props) => {
-  const {desc, estimateAt, doneAt} = props;
+  const {desc, estimateAt, doneAt, toggleTask, id} = props;
 
   /**
    * A lógica é bem simples do doneOrNotStyle, caso a tarefa esteja concluída (portanto o doneAt é diferente de nulo),
@@ -36,7 +36,9 @@ export default (props) => {
 
   return (
     <View style={styles.Container}>
-      <View style={styles.CheckContainer}>{getCheckView(doneAt)}</View>
+      <TouchableWithoutFeedback onPress={() => toggleTask(id)}>
+        <View style={styles.CheckContainer}>{getCheckView(doneAt)}</View>
+      </TouchableWithoutFeedback>
       <View>
         <Text style={[styles.Description, doneOrNotStyle]}>{desc}</Text>
         <Text style={styles.Date}>{formattedDate}</Text>
