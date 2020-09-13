@@ -15,13 +15,13 @@ export default class TaskList extends Component {
     const today = moment().locale('pt-br').format('ddd, D [de] MMMM');
     return (
       <View style={styles.Container}>
-        {/* <ImageBackground source={todayImage} style={styles.BackgroundImage}>
+        <ImageBackground source={todayImage} style={styles.BackgroundImage}>
           <View style={styles.TitleBar}>
             <Text style={styles.Title}>Hoje</Text>
             <Text style={styles.Subtitle}>{today}</Text>
           </View>
-        </ImageBackground> */}
-        {/* <View style={styles.TaskList}>
+        </ImageBackground>
+        <View style={styles.TaskList}>
           <Task
             desc="Finalizar curso"
             estimateAt={new Date()}
@@ -32,8 +32,7 @@ export default class TaskList extends Component {
             estimateAt={new Date()}
             doneAt={null}
           />
-        </View> */}
-        <InfiniteList />
+        </View>
       </View>
     );
   }
