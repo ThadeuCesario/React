@@ -8,6 +8,8 @@ target 'fundamentals' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'MixpanelReactNative', :path => '../node_modules/mixpanel-react-native'
+
   target 'fundamentalsTests' do
     inherit! :complete
     # Pods for testing
