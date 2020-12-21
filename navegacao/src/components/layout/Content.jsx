@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import About from '../../views/examples/About';
 import Home from '../../views/examples/Home';
 import Param from '../../views/examples/Param';
+import NotFound from '../../views/examples/NotFound';
 import './Content.css';
 
 const Content = props => {
@@ -12,6 +13,7 @@ const Content = props => {
                 <Route exact path={'/'} component={Home}/>
                 <Route exact path={'/about'} component={About} />
                 <Route exact path={'/param/:id'} component={Param}/> 
+                <Route path={'*'} component={NotFound} />
             </Switch>
         </main>
     );
