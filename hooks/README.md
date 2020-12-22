@@ -10,5 +10,11 @@ Também estou aplicando um destructuring. Sendo que na primeira posição tenho 
 para setar um novo valor em value.
 
 
+Passando uma função para dentro do setValue, pegaremos o valor atual do estado.
+
+setValue(current => current + 1000) 
+
+Portanto, acima estaremos somando 1000 ao valor atual do estado.
+
 
 ---------------------------------------------------------------

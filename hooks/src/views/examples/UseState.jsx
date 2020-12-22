@@ -17,6 +17,7 @@ const UseState = props => {
                 <div>
                     <button className="btn" onClick={() => setCount(count - 1)}>-1</button>
                     <button className="btn" onClick={() => setCount(count + 1)}>+1</button>
+                    <button className="btn" onClick={() => setCount(current => current + current)}> +Same Value</button>
                 </div>
             </div>
 
