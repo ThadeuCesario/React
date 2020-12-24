@@ -31,3 +31,7 @@ Dentro do useEffect passamos dois parâmetros:
 useEffect(() => {}, [estado1, estado2]);
 
 Efeito colateral => Um dado foi alterado e essa alteração vai mudar um outro estado de sua aplicação. Para isso utilizamos o useEffect.
+
+---------------------------------------------------------------
+
+useRef

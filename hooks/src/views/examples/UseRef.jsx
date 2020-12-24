@@ -4,8 +4,8 @@ import PageTitle from '../../components/layout/PageTitle'
 const UseRef = props => (
     <div className="UseRef">
         <PageTitle
-            title="Módulo UseRef"
-            subtitle="UseRef são uma nova adição ao React 16.8." />
+            title="Hook UseRef"
+            subtitle="Retorna um objeto mutável com a propriedade .current!" />
     </div>
 )
 
