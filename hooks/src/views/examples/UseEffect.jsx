@@ -6,6 +6,7 @@ const UseEffect = props => {
     const [fatorial, setFatorial] = useState(1);
 
     const findFactorial = useCallback(n => {
+        if(n < 0) return -1;
         if(n === 0 || n === 1) return 1;
         return n * findFactorial(n - 1);
     }, []);
@@ -23,7 +24,7 @@ const UseEffect = props => {
             <div className="center">
                 <div>
                     <span className="text">Fatorial: </span>
-                    <span className="text red">{fatorial}</span>
+                    <span className="text red">{fatorial === -1 ? 'Valor inválido' : fatorial}</span>
                 </div>
                 <input
                     className="input"
