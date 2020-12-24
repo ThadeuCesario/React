@@ -5,7 +5,6 @@ import SectionTitle from '../../components/layout/SectionTitle';
 const UseEffect = props => {
     const [number, setNumber] = useState(1);
     const [fatorial, setFatorial] = useState(1);
-    const [value, setValue] = useState(0);
     const [valueType, setValueType] = useState('');
 
     const findFactorial = useCallback(num => {
@@ -26,10 +25,9 @@ const UseEffect = props => {
     }, [fatorial]);
 
     useEffect(() => {
-        if (!(value % 2)) setValueType('Par');
+        if (!(number % 2)) setValueType('Par');
         else setValueType('Ímpar');
-    }, [value]);
-
+    }, [number]);
 
     return (
         <div className="UseEffect">
@@ -57,12 +55,6 @@ const UseEffect = props => {
                     <span className="text">Status: </span>
                     <span className="text red">{valueType}</span>
                 </div>
-                <input 
-                    type="number"
-                    className="input"
-                    value={value}
-                    onChange={event => setValue(event.target.value)}
-                />
             </div>
         </div>
     )
