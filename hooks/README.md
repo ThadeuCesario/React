@@ -18,3 +18,16 @@ Portanto, acima estaremos somando 1000 ao valor atual do estado.
 
 
 ---------------------------------------------------------------
+
+useEffect
+
+Permite executar efeitos colaterais em componentes funcionais.
+Portanto se queremos monitorar o estado de um componente para que ele seja atualizado assim que o estado atualizar, basta utilizarmos o useEffect.
+Dentro do useEffect passamos dois parâmetros:
+
+- Função para ser executada quando o estado que estamos observando for alterado
+- Estado que estamos observando (array)
+
+useEffect(() => {}, [estado1, estado2]);
+
+Efeito colateral => Um dado foi alterado e essa alteração vai mudar um outro estado de sua aplicação. Para isso utilizamos o useEffect.

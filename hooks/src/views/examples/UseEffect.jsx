@@ -5,15 +5,23 @@ const UseEffect = props => {
     const [number, setNumber] = useState(1);
     const [fatorial, setFatorial] = useState(1);
 
-    const findFactorial = useCallback(n => {
+    const findFactorial = useCallback(num => {
+        const n = parseInt(num);
+        if(Number.isNaN(n)) return -1;
         if(n < 0) return -1;
-        if(n === 0 || n === 1) return 1;
+        if(n === 0) return 1;
         return n * findFactorial(n - 1);
     }, []);
 
     useEffect(() => {
         setFatorial(findFactorial(number));
     }, [number, findFactorial]);
+
+    useEffect(() => {
+        if(fatorial > 1000000) document.title = 'Gigante';
+        else document.title = 'React hooks';
+    }, [fatorial]);
+
 
     return (
         <div className="UseEffect">
