@@ -1,9 +1,12 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
+import SectionTitle from '../../components/layout/SectionTitle';
 
 const UseEffect = props => {
     const [number, setNumber] = useState(1);
     const [fatorial, setFatorial] = useState(1);
+    const [value, setValue] = useState(0);
+    const [valueType, setValueType] = useState('');
 
     const findFactorial = useCallback(num => {
         const n = parseInt(num);
@@ -22,6 +25,11 @@ const UseEffect = props => {
         else document.title = 'React hooks';
     }, [fatorial]);
 
+    useEffect(() => {
+        if (!(value % 2)) setValueType('Par');
+        else setValueType('Ímpar');
+    }, [value]);
+
 
     return (
         <div className="UseEffect">
@@ -29,6 +37,7 @@ const UseEffect = props => {
                 title="Módulo UseEffect"
                 subtitle="Permite executar efeitos colaterais em componentes funcionais!" />
 
+            <SectionTitle title="Exercício #01" />
             <div className="center">
                 <div>
                     <span className="text">Fatorial: </span>
@@ -39,6 +48,20 @@ const UseEffect = props => {
                     value={number}
                     onChange={event => setNumber(event.target.value)}
                     type="number"
+                />
+            </div>
+
+            <SectionTitle title="Exercício #02" />
+            <div className="center">
+                <div>
+                    <span className="text">Status: </span>
+                    <span className="text red">{valueType}</span>
+                </div>
+                <input 
+                    type="number"
+                    className="input"
+                    value={value}
+                    onChange={event => setValue(event.target.value)}
                 />
             </div>
         </div>
