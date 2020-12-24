@@ -15,7 +15,7 @@ const Fire = _props => {
         setFireHeight(randomNumber);
         setTimeout(() => {
             generateRandomHeight();
-        }, randomNumber * 5000);
+        }, randomNumber * 10);
     }
 
     return(
