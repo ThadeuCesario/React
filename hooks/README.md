@@ -35,3 +35,14 @@ Efeito colateral => Um dado foi alterado e essa alteração vai mudar um outro e
 ---------------------------------------------------------------
 
 useRef
+
+O useRef retorna um objeto e dentro dele temos uma propriedade chamada current (atual) e dentro de current que teremos nosso valor.
+
+O 'Ref' está relacionado com referência, ou seja, temos uma referência de um objeto e esse objeto tem a referência de um atributo chamado current e
+dentro do current, podemos ter valores númerico, strings.... 
+
+O 'useRef' retorna um objeto e ele sempre retornará a mesma referência, ou seja, quando atribuímos o valor de um objeto em javascript para uma variável e pegamos essa variável e atribuímos para outra variável, chamamos isso de passagem por referência.
+O 'useRef' retorna a referência de um objeto, de forma que ele sempre me retornará a mesma referência e podemos ter um estado a partir do atributo current.
+Quando alteramos o valor que está armazenado na propriedade current, não há a necessidade de renderizar novamente o componente. Portanto, podemos até fazer isso: 
+
+count.current = count.current + 1; //Não ocasionará uma nova renderização
