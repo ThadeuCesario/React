@@ -54,3 +54,11 @@ Podemos alterar o valor do current sem disparar uma nova renderização!!!
 UseMemo
 
 Retorna um valor memorizado, basicamente vai retornar um valor que foi calculado como se fosse um cache.
+
+
+---------------------------------------------------------------
+
+UseCallback
+
+É semelhante ao useMemo, porém o useMemo retorna um valor memorizado (em cache) e retorna o valor quando as dependências forem modificadas. No caso do useCallback ele retornará uma função cacheada, para que possamos usar a mesma função e não criar uma nova. 
+
