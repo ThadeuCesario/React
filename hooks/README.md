@@ -46,3 +46,5 @@ O 'useRef' retorna a referência de um objeto, de forma que ele sempre me retorn
 Quando alteramos o valor que está armazenado na propriedade current, não há a necessidade de renderizar novamente o componente. Portanto, podemos até fazer isso: 
 
 count.current = count.current + 1; //Não ocasionará uma nova renderização
+
+Podemos alterar o valor do current sem disparar uma nova renderização!!!
