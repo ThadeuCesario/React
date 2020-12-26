@@ -48,3 +48,9 @@ Quando alteramos o valor que está armazenado na propriedade current, não há a
 count.current = count.current + 1; //Não ocasionará uma nova renderização
 
 Podemos alterar o valor do current sem disparar uma nova renderização!!!
+
+---------------------------------------------------------------
+
+UseMemo
+
+Retorna um valor memorizado, basicamente vai retornar um valor que foi calculado como se fosse um cache.
