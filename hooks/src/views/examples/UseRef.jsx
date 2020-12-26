@@ -2,6 +2,30 @@ import React, { useEffect, useRef, useState } from 'react';
 import PageTitle from '../../components/layout/PageTitle';
 import SectionTitle from '../../components/layout/SectionTitle';
 
+const merge = (s1, s2) => {
+    const arrayFirstString = s1.split('');
+    const arraySecondString = s2.split('');
+    let finalString = [];
+    const biggestLength = arrayFirstString.length > arraySecondString.length ? arrayFirstString.length : arraySecondString.length;
+    
+
+    for(let i = 0; i < biggestLength; i++) {
+        if(arrayFirstString[i] && arraySecondString[i]) {
+            finalString.push(arrayFirstString[i]);
+            finalString.push(arraySecondString[i]);
+        }
+        if(!arrayFirstString[i] && arraySecondString[i]) {
+            finalString.push(arraySecondString[i]);
+        }
+        if(arrayFirstString[i] && !arraySecondString[i]) {
+            finalString.push(arrayFirstString[i]);
+        }
+    }
+
+    console.log(finalString);
+    return finalString.join('');
+};
+
 const UseRef = _props => {
     const [value1, setValue1] = useState("");
     const [value2, setValue2] = useState("");
@@ -9,12 +33,16 @@ const UseRef = _props => {
     const myInput1 = useRef(null);
     const myInput2 = useRef(null);
 
-    console.log("verificando o que temos dentro de myInput1", myInput1);
-
-    useEffect(function(){
+    useEffect(function() {
         //Será chamado somente quando o value1 mudar.
         count.current = count.current + 1;
-    }, [value1, value2  ]);
+        myInput2.current.focus();
+    }, [value1]);
+
+    useEffect(function() {
+        count.current++;
+        myInput1.current.focus();
+    }, [value2]);
 
     /**
      * Será chamado em todas as renderizações do nosso componente. 
@@ -32,7 +60,7 @@ const UseRef = _props => {
             <div className="center">
                 <div>
                     <span className="text">Valor: </span>
-                    <span className="text">{value1} [</span>
+                    <span className="text">{merge(value1, value2)} [</span>
                     <span className="text red">{count.current}</span>
                     <span className="text">]</span>
                 </div>
@@ -50,6 +78,7 @@ const UseRef = _props => {
             <div className="center">
                 <input
                     type="text"
+                    ref={myInput2}
                     className="input"
                     value={value2}
                     onChange={event => setValue2(event.target.value)}
