@@ -9,10 +9,12 @@ import UseRef from '../../views/examples/UseRef';
 import UseEffect from '../../views/examples/UseEffect';
 import UseMemo from '../../views/examples/UseMemo';
 import UseCallback from '../../views/examples/UseCallback';
+import UseContext from '../../views/examples/UseContext';
 
 const Content = props => (
     <main className="Content">
         <Switch>
+            <Route path="/useContext" component={UseContext} />
             <Route path="/useCallback" component={UseCallback} />
             <Route path="/useMemo" component={UseMemo} />
             <Route path="/useEffect" component={UseEffect} />
