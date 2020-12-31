@@ -5,6 +5,13 @@ import DataContext from '../../data/DataContext';
 const UseContext = props => {
     const context = useContext(DataContext);
 
+    function addNumber(delta) {
+        context.setState({
+            ...context.state,
+            number: context.state.number + delta,
+        })
+    }
+
     return (
         <div className="UseContext">
             <PageTitle
@@ -18,10 +25,15 @@ const UseContext = props => {
                 <span className="text">
                     {context.state.number}
                 </span>
+
+                <div>
+                    <button className="btn" onClick={() => addNumber(-1)}>-1</button>
+                    <button className="btn" onClick={() => addNumber(1)}>+1</button>
+                </div>
             </div>
         </div>
     )
 }
 
 
-export default UseContext
+export default UseContext;

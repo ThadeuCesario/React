@@ -11,6 +11,6 @@ export const data = {
  * parâmetro.
  */
 
-const DataContext = createContext(data);
+const DataContext = createContext(null);
 
 export default DataContext;

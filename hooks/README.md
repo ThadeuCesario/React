@@ -139,6 +139,8 @@ Quando temos uma árvore muito grande não faz sentido termos várias comunicaç
 Portanto o contextAPI nada mais é que algo externo da árvore de componentes, que possamos ler essas informações desse contexto e podemos alterar as informações desse contexto.
 
 É muito comum utilizar o ContextAPI junto com useReducer. O useReducer é uma alterntiva ao useState, quando temos estados mais complexos.
+
+O contexto sobrevive a sua aplicação inteira, portanto mesmo mudando de páginas estaremos com os dados. Podemos também trabalhar com a persistência dos dados.
 ---------------------------------------------------------------
 Outra Observações
 
@@ -148,4 +150,7 @@ Usecallback utilizando a função 'set...' como dependência, porque sabemos que
 O componente que receberá nossa função deve ser exportado utilizando o memo, para que assim podemos deixar claro que será
 um componente cacheado.
 Veja os exemplos dos componenetes UseCallback e UseCallbackButtons.
+
+
+
 
