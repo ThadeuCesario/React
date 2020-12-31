@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useState } from 'react';
 import PageTitle from '../../components/layout/PageTitle';
 
 const initialState = {
@@ -27,18 +27,50 @@ function reducer(state, action) {
      * um parâmetro que queremos passar (geralmente chamamos de payload).
      */
 
+     /**
+      * Desafio:
+      * Multiplicar por 7
+      * dividir por 25
+      * parse do numero e transformar para inteiro
+      * adicionar um numero qualquer
+      */
+
     switch(action.type) {
         case 'number_add2': 
             return {
                 ...state,
                 number: state.number + 2,
             }
+
+        case 'number_mult7': 
+            return {
+                ...state,
+                number: state.number * 7,
+            }
+
+        case 'number_div25': 
+            return {
+                ...state,
+                number: state.number / 25,
+            } 
+        
+        case 'number_round':
+            return {
+                ...state,
+                number: Number.parseInt(state.number)
+            }
+
+        case 'number_addN': 
+            return {
+                ...state,
+                number: state.number + action.payload,
+            }
         
         case 'login':
             return {
                 ...state,
                 user: {
-                    name: action.payload
+                    name: action.payload,
                 }
             }
 
@@ -50,6 +82,7 @@ function reducer(state, action) {
 
 const UseReducer = props => {
     const [state, dispatch] = useReducer(reducer, initialState);
+    const [number, setNumber] = useState(0);
 
     return (
         <div className="UseReducer">
@@ -65,7 +98,15 @@ const UseReducer = props => {
 
                 <div>
                     <button className="btn" onClick={() => dispatch({type: 'number_add2'})}>+2</button>
+                    <button className="btn" onClick={() => dispatch({type: 'number_mult7'})}>*7</button>
+                    <button className="btn" onClick={() => dispatch({type: 'number_div25'})}>/25</button>
+                    <button className="btn" onClick={() => dispatch({type: 'number_round'})}>Arredondar</button>
                     <button className="btn" onClick={() => dispatch({type: 'login', payload: 'Maria'})}>Login</button>
+                </div>
+
+                <div>
+                    <input type="number" className="input" value={number} onChange={event => setNumber(event.target.value)}/>
+                    <button className="btn" onClick={() => dispatch({type: 'number_addN', payload: number})}>Adicionar</button>
                 </div>
             </div>
         </div>
