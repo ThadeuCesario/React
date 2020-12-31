@@ -125,6 +125,13 @@ Feito isso já estamos com acesso ao contexto e podemos pegar os dados utilizand
 Mas como alterar um dado do contexto?
 Para alterar alguma informação do contexto, precisamos ter ciência de que vamos alterar o contexto inteiro.
 
+---------------------------------------------------------------
+useReducer
+
+Tem uma relação muito forte com o redux. Lembrando que a comunidade utilizou por muito tempo o React juntamente com o Redux (inclusive continua utilizando).
+Podemos utilizar o useReducer juntamente com o ContextAPI.
+
+Para o userReducer, vamos passar dois parâmetros para ele. O primeiro é a função que será utilizada para evolução dos estados e o segundo parâmetro é o estado inicial.
 
 ---------------------------------------------------------------
 ContextAPI

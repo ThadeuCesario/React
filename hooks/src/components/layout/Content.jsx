@@ -1,5 +1,5 @@
 import './Content.css';
-import React, { useCallback } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from '../../views/examples/Home';
@@ -10,10 +10,12 @@ import UseEffect from '../../views/examples/UseEffect';
 import UseMemo from '../../views/examples/UseMemo';
 import UseCallback from '../../views/examples/UseCallback';
 import UseContext from '../../views/examples/UseContext';
+import UseReducer from '../../views/examples/UseReducer';
 
 const Content = props => (
     <main className="Content">
         <Switch>
+            <Route path="/useReducer" component={UseReducer}/>
             <Route path="/useContext" component={UseContext} />
             <Route path="/useCallback" component={UseCallback} />
             <Route path="/useMemo" component={UseMemo} />
