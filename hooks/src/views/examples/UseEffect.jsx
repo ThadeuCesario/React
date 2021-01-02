@@ -12,7 +12,7 @@ const calcFatorial = n => {
 const UseEffect = () => {   
     const [number, setNumber] = useState(1);
     const [fatorial, setFatorial] = useState(1);
-    const [status, setStatus] = useState('');
+    const [status, setStatus] = useState('ímpar');
 
     useEffect(() => {
         setFatorial(calcFatorial(number));
