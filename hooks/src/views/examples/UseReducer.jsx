@@ -63,7 +63,7 @@ function reducer(state, action) {
         case 'number_addN': 
             return {
                 ...state,
-                number: state.number + action.payload,
+                number: Number(state.number) + Number(action.payload),
             }
         
         case 'login':
