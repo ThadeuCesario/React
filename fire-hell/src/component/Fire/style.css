@@ -1,0 +1,6 @@
+#fire{
+    background-color: rgba(0,0,0,0.9);
+    width: 1vw;
+    bottom: 0;
+    transition: 0.7s;
+}
