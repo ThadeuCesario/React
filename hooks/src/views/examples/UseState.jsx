@@ -4,9 +4,12 @@ import SectionTitle from '../../components/layout/SectionTitle';
 
 const UseState = (props) => {
     const [count, setCount] = useState(0);
+    const [name, seName] = useState("Inicial...");
     /* 
         Dentro do setCount podemos passar uma função como parâmetro.
         Sendo que essa função sempre recebe o valor mais atualizado do estado.
+
+        Componente controlado -> Componente que sermpre refletirá o estado de um componente
     */
     return (
         <div className="UseState">
@@ -28,6 +31,12 @@ const UseState = (props) => {
             </div>
 
             <SectionTitle title="Exercício #02" />
+            <input 
+                type="text" 
+                className="input" 
+                value={name} 
+                onChange={(event) => seName(event.target.value)}
+            />
         </div>
     )
 }
