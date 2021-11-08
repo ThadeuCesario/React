@@ -12,8 +12,8 @@ const UseRef = (props) => {
 
     const merge = (s1, s2) => {
         const newWord = [];
-        const arrayS1 = s1.split('');
-        const arrayS2 = s2.split('');
+        const arrayS1 = [...s1];
+        const arrayS2 = [...s2];
 
         const biggestWord = arrayS1.length >= arrayS2.length  ? arrayS1 : arrayS2;
         const smallestWord = arrayS1.length < arrayS2.length ? arrayS1 : arrayS2;
